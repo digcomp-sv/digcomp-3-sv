@@ -6,23 +6,15 @@ Detta dokument registrerar avvägningar som gjorts mellan möjliga svenska terme
 
 ## 2026-04-19 — Proficiency level names (4-nivåskalan)
 
-**Alternativ övervägda:** Grundläggande/Mellannivå/Avancerad/Mycket avancerad; Grundläggande/Medelgod/Avancerad/Expertnivå; Grund/Fördjupad/Avancerad/Mycket avancerad; Grund/Medel/Hög/Avancerad; Grund/Medel/Avancerad/Expert; Grund/Medel/Avancerad/Specialist; Grund/Medel/Avancerad/Specialiserad; Grund/Medel/Avancerad/Särskilt specialiserad; Grund/Medel/Avancerad/Högt specialiserad.
+**Alternativ övervägda:** Grundläggande/Mellannivå/Avancerad/Mycket avancerad; Grund/Medel/Avancerad/Mycket avancerad; Grundläggande/Mellan/Avancerad/Högt avancerad.
 
-**Valt:** Grund / Medel / Avancerad / I hög grad specialiserad.
+**Valt:** Grund / Medel / Avancerad / Mycket avancerad.
 
-**Motivering:** De engelska termerna i DigComp 3.0 är Foundation/Intermediate/Advanced/Highly specialised (tidigare formulering i detta dokument – "Basic/.../Highly advanced" – korrigeras härmed). Översättningen behöver bevara det kvalitativa språnget mellan nivå 3 och 4. "Advanced" beskriver självständig kompetensutövning i bredd, medan "highly specialised" beskriver smal djupkompetens i ett avgränsat område, ofta i en roll där personen utvecklar lösningar för andra. En platt progression där nivå 4 bara blir "mer avancerat" än nivå 3 missar ramverkets poäng.
-
-Substantivformer som "Expert" och "Specialist" förkastades eftersom de drar mot att beskriva personen som helhet snarare än kompetensutövningen i en specifik kompetens. Detta ligger fel i DigComp, där en och samma person kan befinna sig på olika nivåer i olika kompetenser. JRC har också medvetet valt bort "expert" i den engelska versionen av samma skäl, och den svenska översättningen bör respektera den avvägningen. "Specialist" har dessutom en stark medicinsk konnotation på svenska som stör läsningen i andra sektorskontexter.
-
-"Specialiserad" ensamt bevarar adjektivform men tappar intensifieraren "highly" och riskerar att läsas som "bara specialiserad". "Särskilt specialiserad" försöker bevara intensifieraren men "särskilt" är på svenska tvetydigt mellan "i synnerhet" och "i hög grad" – tvetydigheten försvagar nivåmarkeringen. "Högt specialiserad" är entydigt och kortare, men "I hög grad specialiserad" valdes för att den fulla formen är mer omisskännlig i löpande text och tydligare signalerar att "highly" avser grad av specialisering, inte att specialiseringen ligger "högt upp" i något annat avseende.
-
-Varken "Grund/Medel/Hög/Avancerad" eller "Grund/Fördjupad/Avancerad/Mycket avancerad" bevarar kopplingen till originalets "advanced" på nivå 3. "Hög" är dessutom en svag kompetensmarkör som inte säger något specifikt om vad nivån innebär. "Mellannivå", "Medelgod" och "Fördjupad" förkastades till förmån för det kortare "Medel", som ger en jämnare längdprofil över de tre första nivåerna.
+**Motivering:** De engelska termerna i DigComp 3.0 är Basic / Intermediate / Advanced / Highly advanced. Progressionen mellan nivåerna är monoton längs tre samverkande dimensioner (kognitiv belastning, uppgiftskomplexitet, autonomi/ledarskap) – det finns ingen kvalitativ brytpunkt som översättningen behöver markera med en särskild begreppsetikett. "Mycket avancerad" är den idiomatiska svenska motsvarigheten till "highly advanced". "Grund" och "Medel" valdes framför "Grundläggande" och "Mellannivå" för jämnare längdprofil över skalan och läsbarhet i tabeller och gränssnitt.
 
 SeQF har inga helt motsvarande nivåer och gav därför ingen bindande vägledning. Den 8-nivåbaserade EQF-kopplingen i DigComp 3.0 hanteras som separat beslut.
 
-**Påverkar:** `data/sv/proficiency_levels.json` (4-nivåskalan); samtliga CS- och LO-texter som innehåller nivåhänvisningar; GLOSSARY.md (termparet "highly specialised ↔ i hög grad specialiserad" läggs in).
-
-**Not om gränssnitt:** Den fulla etiketten "I hög grad specialiserad" är lång och kan behöva kortas i tabellrubriker eller självskattningsverktyg. Kortformer hanteras som separat gränssnittsbeslut och får inte ändra den normativa benämningen i datafilerna.
+**Påverkar:** `data/sv/proficiency_levels.json` (4-nivåskalan); samtliga CS- och LO-texter som innehåller nivåhänvisningar; `GLOSSARY.md` och `translation_principles.md` punkt 4.
 
 ---
 
