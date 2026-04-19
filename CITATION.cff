@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "Om du använder denna översättning i ditt arbete, vänligen citera den enligt nedan."
 title: "DigComp 3.0 på svenska"
-abstract: "Öppen svensk översättning av DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition). Projektet är initierat av Terese Raymond och planeras långsiktigt förvaltas inom en lämplig öppenhetsorganisation."
+abstract: "Öppen svensk översättning av DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition). Projektet är initierat av Terese Raymond och är strukturerat för att i framtiden överföras till en lämplig organisation som kan ta ansvar för långsiktig förvaltning."
 authors:
   - name: "digcomp-sv contributors"
     website: "https://github.com/digcomp-sv/digcomp-3-sv/graphs/contributors"
