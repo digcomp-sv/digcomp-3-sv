@@ -32,7 +32,8 @@ Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk
 
 ---
 
-## 2026-04-18 — "Digital exclusion" → "Digitalt utanförskap"
+## 2026-04-18 — "Digital exclusion" → "Digitalt utanförskap" [ERSATT]
+> ⚠️ **Detta beslut är ersatt av revideringen 2026-04-19.** Posten behålls för spårbarhet enligt dokumentets revideringsprincip.
 
 **Alternativ övervägda:** digital exkludering, digitalt utanförskap, digital marginalisering.
 
