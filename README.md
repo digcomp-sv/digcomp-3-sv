@@ -83,6 +83,16 @@ Detta repo har **två licenser** för olika typer av material, inspirerat av mod
 * **Översättningen, datan och dokumentationen** (allt utanför `scripts/`) — [CC BY-SA 4.0](LICENSE-CC-BY-SA) (Erkännande-DelaLika). Licensvalet är ärvt från JRC:s editerbara version.
 * **Scripts och tekniska verktyg** (`scripts/`) — [Apache License 2.0](LICENSE-scripts). Scripten är fristående kod och licensieras separat för att maximera återanvändbarhet.
 
+## Citering
+
+Om du använder denna översättning i ditt arbete, vänligen citera den:
+
+> digcomp-sv contributors (2026). *DigComp 3.0 på svenska* (Version 0.0.1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.19652094
+
+Använd **concept-DOI** [10.5281/zenodo.19652093](https://doi.org/10.5281/zenodo.19652093) om du vill referera till projektet i allmänhet (pekar alltid på senaste version). Använd **version-DOI** om du vill referera till en specifik version.
+
+För automatgenererad citation i olika format (APA, BibTeX, etc.), använd "Cite this repository"-knappen uppe till höger på GitHub, eller se CITATION.cff.
+
 ## Relaterade översättningsprojekt
 
 * **Nederländska:** [PiAir/digcomp3-l10n](https://github.com/PiAir/digcomp3-l10n) — använder Weblate, förväntas klar mars 2026. Förebild för detta projekts struktur.
