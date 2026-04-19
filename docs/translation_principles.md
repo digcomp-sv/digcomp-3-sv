@@ -38,7 +38,7 @@ Följande termer ska användas konsekvent och är fastställda i `GLOSSARY.md`:
 |---|---|---|
 | digital competence | digital kompetens | Etablerat i svensk utbildningskontext |
 | digital inclusion | digital inkludering | Cedefop, PTS, DIGG |
-| digital exclusion | digitalt utanförskap | Betonar det aktiva strukturella skeendet. Se decision_log.md. |
+| digital exclusion | digital exkludering | Betonar det aktiva strukturella skeendet. Se decision_log.md. |
 | personal data | personuppgifter | GDPR svensk version, art. 4 |
 | data protection | dataskydd | GDPR svensk version |
 | privacy | integritet / personlig integritet | Kontextberoende |
@@ -54,7 +54,7 @@ Följande termer ska användas konsekvent och är fastställda i `GLOSSARY.md`:
 
 | EN | SV |
 |---|---|
-| Basic | Grundläggande |
+| Foundation | Grundläggande |
 | Intermediate | Mellannivå |
 | Advanced | Avancerad |
 | Highly advanced | Mycket avancerad |
