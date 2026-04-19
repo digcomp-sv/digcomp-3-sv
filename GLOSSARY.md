@@ -123,9 +123,9 @@ Källa: Etablerad. ✅
 **Malware** → **Skadlig kod / sabotageprogram**
 Källa: MSB. ✅
 
-**Misinformation** → **Felinformation**
-Falsk information, oavsett avsikt att bedra.
-Källa: MSB. ✅
+**Misinformation** → **Missinformation**
+Handlar ofta om oavsiktlig spridning av desinformation men kan även gälla utgivning och spridning av annan felaktig information. Se decision_log.md.
+Källa: Institutet för språk och folkminnen. ✅
 
 **Multi-factor authentication** → **Multifaktorautentisering / flerfaktorsautentisering**
 Källa: MSB, Myndigheten för digital förvaltning (DIGG). ✅
