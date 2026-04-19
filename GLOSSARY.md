@@ -61,8 +61,8 @@ Källa: Europarådet (2022). ✅
 **Digital competence** → **Digital kompetens**
 Källa: Etablerad term i svensk utbildningskontext, Lgr 22. ✅
 
-**Digital exclusion** → **Digitalt utanförskap**
-Källa: MSB, SKR, PTS. Se decision_log.md. ✅
+**Digital exclusion** → **Digital exkludering**
+Betonar det aktiva strukturella skeendet. Se decision_log.md. ✅
 
 **Digital inclusion** → **Digital inkludering**
 Källa: PTS regeringsuppdrag 2023-02-23 (Digital inkludering). ✅
