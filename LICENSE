@@ -1,0 +1,35 @@
+LICENSES
+========
+
+Detta repo innehåller två typer av material som omfattas av olika licenser:
+
+1. ÖVERSÄTTNINGEN OCH DATASTRUKTUREN
+   Filer i: data/, docs/, README.md, CONTRIBUTING.md, GLOSSARY.md
+   Licens: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+   Se: LICENSE-CC-BY-SA
+
+2. SCRIPTS OCH TEKNISKA VERKTYG
+   Filer i: scripts/
+   Licens: Apache License 2.0
+   Se: LICENSE-scripts
+
+SAMMANFATTNING
+
+Översättningen är ett derivat av "DigComp 3.0: European Digital Competence
+Framework – Fifth Edition" (JRC144121) av Cosgrove & Cachia (2025) samt dess
+editerbara version (DOI: 10.5281/zenodo.17780383), vilka är publicerade under
+CC BY-SA 4.0 av Europeiska kommissionens Joint Research Centre. Share-alike-
+klausulen gör att översättningen måste ärva samma licens.
+
+Scripten i `scripts/` är fristående verktyg (inte derivatverk av
+översättningen) och licensieras separat under Apache 2.0 för att maximera
+återanvändbarhet – även i sammanhang där CC BY-SA skulle vara opraktiskt
+(t.ex. integrering i företagsverktyg).
+
+ANSVARSFRISKRIVNING
+
+Europeiska kommissionen ansvarar inte för den modifierade, anpassade eller
+översatta versionen i detta repo. Endosering av kommissionen föreligger inte.
+För originalets officiella status, se:
+https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30_en
+

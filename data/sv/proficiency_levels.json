@@ -1,0 +1,158 @@
+{
+  "four_level": [
+    {
+      "name": {
+        "en": "Basic",
+        "sv": null
+      },
+      "description": {
+        "en": "At basic level, individuals remember and implement simple tasks with guidance as needed.",
+        "sv": null
+      },
+      "purpose": {
+        "en": "To support personal, learning and/or working goals and participate in society.",
+        "sv": null
+      }
+    },
+    {
+      "name": {
+        "en": "Intermediate",
+        "sv": null
+      },
+      "description": {
+        "en": "At intermediate level, individuals identify and implement well-defined tasks and solve well-defined problems autonomously.",
+        "sv": null
+      },
+      "purpose": {
+        "en": "To support personal, learning and/or working goals and participate autonomously in society.",
+        "sv": null
+      }
+    },
+    {
+      "name": {
+        "en": "Advanced",
+        "sv": null
+      },
+      "description": {
+        "en": "At advanced level, individuals assess and apply solutions to a variety of complex tasks autonomously and adapt to a variety of contexts to evaluate and execute tasks appropriately, guiding others if and as required.",
+        "sv": null
+      },
+      "purpose": {
+        "en": "To support personal, learning and/or working goals, participate effectively in society, and manage or support others in achieving their goals.",
+        "sv": null
+      }
+    },
+    {
+      "name": {
+        "en": "Highly advanced",
+        "sv": null
+      },
+      "description": {
+        "en": "At highly advanced level, individuals assess, evaluate and resolve highly complex or specialised problems to create new solutions or adapt existing ones, leading and guiding others if and as required.",
+        "sv": null
+      },
+      "purpose": {
+        "en": "To support personal, learning and/or working goals, help others to participate effectively in society, lead or support others to achieve complex goals, and/or lead or contribute to improvements in or new solutions for highly complex problems.",
+        "sv": null
+      }
+    }
+  ],
+  "eight_level": [
+    {
+      "eqf_level": 1,
+      "cefr_style": "A1",
+      "parent_level_name": {
+        "en": "Basic",
+        "sv": null
+      },
+      "description": {
+        "en": "At the bottom of the Basic level, individuals require guidance to recognise and implement many or most simple tasks.",
+        "sv": null
+      }
+    },
+    {
+      "eqf_level": 2,
+      "cefr_style": "A2",
+      "parent_level_name": {
+        "en": "Basic",
+        "sv": null
+      },
+      "description": {
+        "en": "At the top of the Basic level, individuals remember and implement simple tasks with little or no guidance.",
+        "sv": null
+      }
+    },
+    {
+      "eqf_level": 3,
+      "cefr_style": "B1",
+      "parent_level_name": {
+        "en": "Intermediate",
+        "sv": null
+      },
+      "description": {
+        "en": "At the bottom of the Intermediate level, individuals show some autonomy to identify and implement well-defined tasks and solve well-defined problems.",
+        "sv": null
+      }
+    },
+    {
+      "eqf_level": 4,
+      "cefr_style": "B2",
+      "parent_level_name": {
+        "en": "Intermediate",
+        "sv": null
+      },
+      "description": {
+        "en": "At the top of the Intermediate level, individuals confidently and autonomously identify and implement well-defined tasks and solve well-defined problems.",
+        "sv": null
+      }
+    },
+    {
+      "eqf_level": 5,
+      "cefr_style": "C1",
+      "parent_level_name": {
+        "en": "Advanced",
+        "sv": null
+      },
+      "description": {
+        "en": "At the bottom of the Advanced level, individuals assess and apply solutions to a variety of well-defined tasks and engage with some complex tasks. They identify situations where approaches may need to be adapted, and guide others on well-defined tasks if and as required.",
+        "sv": null
+      }
+    },
+    {
+      "eqf_level": 6,
+      "cefr_style": "C1",
+      "parent_level_name": {
+        "en": "Advanced",
+        "sv": null
+      },
+      "description": {
+        "en": "At the top of the Advanced level, individuals work confidently on a variety of complex tasks, respond effectively to challenges in changing contexts, and lead or manage complex projects, guiding others on complex tasks if and as required.",
+        "sv": null
+      }
+    },
+    {
+      "eqf_level": 7,
+      "cefr_style": "C2",
+      "parent_level_name": {
+        "en": "Highly advanced",
+        "sv": null
+      },
+      "description": {
+        "en": "At the bottom of the Highly Advanced level, individuals assess highly complex or specialised problems and may contribute to new solutions or adapt existing ones, leading and guiding others if and as required.",
+        "sv": null
+      }
+    },
+    {
+      "eqf_level": 8,
+      "cefr_style": "C2",
+      "parent_level_name": {
+        "en": "Highly advanced",
+        "sv": null
+      },
+      "description": {
+        "en": "At the top of the Highly Advanced level, individuals lead and guide others on the creation of solutions to highly complex or specialised problems.",
+        "sv": null
+      }
+    }
+  ]
+}

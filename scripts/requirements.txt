@@ -1,0 +1,8 @@
+# Beroenden för scripts/
+
+# För generate_docx.py (remissdokumentgenerering)
+python-docx>=1.0.0
+
+# För initial extraktion från xlsx (redan gjord, men behövs vid nysynkning)
+pandas>=2.0.0
+openpyxl>=3.1.0

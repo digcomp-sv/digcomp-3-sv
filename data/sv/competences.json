@@ -1,0 +1,296 @@
+[
+  {
+    "id": "1.1",
+    "area_id": 1,
+    "name": {
+      "en": "Browsing, searching and filtering information",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To articulate information needs, to know how and where to search for information and content in digital environments, and to access and navigate between them. To select appropriate digital tools to create, implement and update searches in digital environments and to be able to distinguish between relevant and irrelevant information and content.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "1.2",
+    "area_id": 1,
+    "name": {
+      "en": "Evaluating information",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To assess and compare the credibility and reliability of sources of information and content in digital environments. To interpret and critically evaluate information and content in digital environments, and the processes used to generate them.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "1.3",
+    "area_id": 1,
+    "name": {
+      "en": "Managing information",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To organise, store and retrieve information and data in digital environments. To collect, process and analyse information and data in structured digital environments.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "2.1",
+    "area_id": 2,
+    "name": {
+      "en": "Interacting through and with digital technologies",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To interact through and with a variety of digital technologies, and to use appropriate digital communication for a given context.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "2.2",
+    "area_id": 2,
+    "name": {
+      "en": "Sharing through digital technologies",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To share information and content ethically and responsibly with others through appropriate digital technologies.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "2.3",
+    "area_id": 2,
+    "name": {
+      "en": "Engaging in citizenship through digital technologies",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To participate in society through the ethical and responsible use of digital platforms and services. To seek opportunities for self-empowerment and participation through appropriate digital technologies. To be aware of and assert one's rights, and to exercise choice, in digital environments.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "2.4",
+    "area_id": 2,
+    "name": {
+      "en": "Collaborating through digital technologies",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To use digital technologies ethically and responsibly for collaborative purposes, and for the co-construction and co-creation of information, resources and knowledge.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "2.5",
+    "area_id": 2,
+    "name": {
+      "en": "Digital behaviour",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To be aware of behavioural norms, and to know how to behave respectfully while using digital technologies and interacting in digital environments. To adapt communication to specific contexts, and to be aware of and respect cultural, generational and other diversity in digital environments.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "2.6",
+    "area_id": 2,
+    "name": {
+      "en": "Managing digital identity",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To manage one or multiple digital identities. To take actions to help protect one’s digital reputation (how one is perceived based on online presence), and to manage one's digital footprint (the data that is produced through use of and by digital platforms and services).",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "3.1",
+    "area_id": 3,
+    "name": {
+      "en": "Developing digital content",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To use digital technologies ethically and responsibly to create and edit a variety of content. To express oneself through digital means.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "3.2",
+    "area_id": 3,
+    "name": {
+      "en": "Integrating and re-elaborating digital content",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To modify, refine and integrate new information and content into existing knowledge and resources to create new and original content and knowledge.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "3.3",
+    "area_id": 3,
+    "name": {
+      "en": "Copyright and licences",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To understand how copyright and licences, as well as associated legal and ethical issues, apply to digital content, and how to correctly apply them.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "3.4",
+    "area_id": 3,
+    "name": {
+      "en": "Computational thinking and programming",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To understand and implement steps to analyse a problem, recognise sub-problems, and plan and develop a sequence of instructions for a computing system to solve a given problem or to perform a specific task.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "4.1",
+    "area_id": 4,
+    "name": {
+      "en": "Protecting devices",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To apply safety and cybersecurity measures in order to protect digital devices and content. To be aware of the evolving nature of risks and threats in digital environments, and to have due regard to security of digital devices and their contents.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "4.2",
+    "area_id": 4,
+    "name": {
+      "en": "Protecting personal data and privacy",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To be aware of and exercise one’s rights in relation to personal data and privacy in digital environments. To evaluate and manage privacy risks and protect personal data and privacy in digital environments. To use and share one's own and others' personal data safely, ethically and responsibly.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "4.3",
+    "area_id": 4,
+    "name": {
+      "en": "Supporting wellbeing",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To use digital technologies in ways that support wellbeing and inclusion. To minimise risks and threats to physical, mental and social wellbeing of oneself and others while using digital technologies. To balance usage of digital technologies with offline activities to support wellbeing. To take action to help protect oneself and others from possible dangers in digital environments (e.g. cyberbullying, harmful content), and know how to respond to such dangers.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "4.4",
+    "area_id": 4,
+    "name": {
+      "en": "Environmental impacts of digital technologies",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To be aware of the environmental impacts of digital technologies, including device production, operation, repair, recycling, disposal, data storage infrastructure, energy consumption and usage of tools and applications. To take action to reduce such impact and to use digital technologies to support sustainability.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "5.1",
+    "area_id": 5,
+    "name": {
+      "en": "Identifying and solving technical problems",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To identify technical problems when operating digital devices and in digital environments, and to solve them through a variety of means.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "5.2",
+    "area_id": 5,
+    "name": {
+      "en": "Identifying needs and digital technological responses",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To assess one's own and others' needs and to evaluate, select, use and adapt digital technologies to meet these needs. To adjust and customise digital environments to the contexts, goals and needs (e.g. accessibility) of oneself and others.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "5.3",
+    "area_id": 5,
+    "name": {
+      "en": "Identifying creative solutions using digital technologies",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To use digital technologies to make improvements in or new solutions for processes and products, using a human-centric approach. To engage individually and collectively in critical thinking processes, and the creative and purposeful use of digital technologies, to understand and resolve conceptual problems and problem situations.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  },
+  {
+    "id": "5.4",
+    "area_id": 5,
+    "name": {
+      "en": "Identifying and addressing digital competence needs",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To recognise where one’s own digital competence needs to be improved or updated. To address digital competence needs within a broader process of lifelong learning, building capacity and autonomy. To support others with their digital competence development. To stay informed about digital technological developments and their personal, professional and societal implications.",
+      "sv": null
+    },
+    "translation_status": "not_started",
+    "last_updated": null
+  }
+]

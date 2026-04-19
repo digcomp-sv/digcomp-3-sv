@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": {
+      "en": "Information search, evaluation and management",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To articulate information needs, and to search for, locate and retrieve digital information and content. To judge the relevance of the source and its content in digital environments. To critically evaluate digital sources, content, and processes used to generate them. To store, manage, organise and analyse digital information and data.",
+      "sv": null
+    },
+    "competences": []
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "Communication and collaboration",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To interact, share, communicate and collaborate in digital environments while being aware of cultural, generational and other diversity and the features and limitations of digital technologies. To participate in society through digital technologies. To assert one's rights and exercise choice in digital environments. To manage one’s digital presence, identity and reputation.",
+      "sv": null
+    },
+    "competences": []
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "Content creation",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To create and edit digital content. To improve and integrate information and content into an existing body of knowledge while understanding how copyright and licences are to be applied, adopting an ethical and responsible approach in the creation, improvement and integration of digital content. To know how to apply computational thinking and programming techniques to give instructions to a computer system.",
+      "sv": null
+    },
+    "competences": []
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "Safety, wellbeing and responsible use",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To protect devices, content, personal data and privacy in digital environments. To support physical, mental and social wellbeing of oneself and others, and to be aware of the benefits and risks of digital technologies for wellbeing and social inclusion. To be aware of the environmental impact of digital technologies and their use, to take action to reduce such impact, and to use digital technologies to support sustainability.",
+      "sv": null
+    },
+    "competences": []
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "Problem identification and solving",
+      "sv": null
+    },
+    "descriptor": {
+      "en": "To identify and assess needs, and to use digital technologies and adapt digital environments to meet these needs. To identify and resolve technical and conceptual problems and problem situations in digital environments. To use digital technologies to make improvements in, or new solutions for, processes and products. To build capabilities to operate autonomously in digital environments. To stay informed about digital technological developments and their implications.",
+      "sv": null
+    },
+    "competences": []
+  }
+]
