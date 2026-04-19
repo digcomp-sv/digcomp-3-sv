@@ -89,11 +89,7 @@ Följande termer ska användas konsekvent och är fastställda i `GLOSSARY.md`:
 
 Undvik kalkering. "in digital environments" kan oftast översättas med "digitalt" eller "i digitala miljöer" beroende på sats. Välj det som ger mest läsbar svenska.
 
-## 8. Bildning vs. kompetens
-
-DigComp 3.0 är ett **kompetensramverk**, inte ett bildningsramverk. I svensk kontext där Ellströms bildningsbegrepp ofta åberopas (t.ex. i DigidelGov-sammanhang) är det viktigt att översättningen inte glider in i bildningsvokabulär. "Competence" är inte "bildning". "Learning outcome" är inte "bildningsmål".
-
-## 9. Arbetsflöde per post
+## 8. Arbetsflöde per post
 
 För varje post (LO eller CS):
 
@@ -104,6 +100,6 @@ För varje post (LO eller CS):
 5. Vid granskning sätts `reviewed_by` och status ändras till `"reviewed"`.
 6. Status `"final"` sätts först i samband med release-tagg.
 
-## 10. När osäker
+## 9. När osäker
 
 Hellre markera `translation_status: "needs_review"` och skriva i `notes`-fältet än att gömma osäkerheten i en glatt översättning. Osäkerheter är data – de visar var ramverket möter motstånd i svensk kontext.
