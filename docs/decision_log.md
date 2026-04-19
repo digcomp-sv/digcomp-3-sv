@@ -4,6 +4,22 @@ Detta dokument registrerar avvägningar som gjorts mellan möjliga svenska terme
 
 ---
 
+## 2026-04-19 — REVIDERING: "Digital exclusion" → "Digital exkludering"
+
+**Tidigare beslut (2026-04-18):** Digitalt utanförskap.
+
+**Reviderat till:** Digital exkludering.
+
+**Motivering:** Vid närmare övervägande väger den strukturella precisionen tyngre än matchningen mot myndighetspraxis. "Exkludering" betonar det aktiva skeendet – att någon eller något exkluderar – medan "utanförskap" tonar ner den systemiska dimensionen och placerar fokus på den uteslutnas tillstånd. 
+
+DigComp:s egen definition ("marginalisation of an individual... deprived of full access") beskriver ett aktivt skeende. Inte ett passivt tillstånd. Och den svenska översättningen bör spegla detta.
+
+Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk förenkling som inte passar i ett ramverk med rättighetsperspektiv.
+
+**Påverkar:** GLOSSARY.md, samt alla framtida översättningar som innehåller termen.
+
+---
+
 ## 2026-04-18 — "Attitude" → "Förhållningssätt"
 
 **Alternativ övervägda:** attityd, hållning, inställning, förhållningssätt.
