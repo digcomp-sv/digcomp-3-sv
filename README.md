@@ -28,7 +28,7 @@ Syftet är att tillhandahålla en öppen och maskinläsbar svensk version av Dig
 
 Alla val dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
 
-Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond. Arbetet bedrivs öppet med möjlighet att i framtiden överföras till en organisation som långsiktigt kan förvalta det.
+Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond. Arbetet är strukturerat för att i framtiden överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
 
 Licensen (CC BY-SA 4.0) säkerställer att arbetet förblir öppet. Översättningen får användas fritt – även kommersiellt – men ingen enskild aktör kan privatisera eller stänga in själva översättningstexten.
 
