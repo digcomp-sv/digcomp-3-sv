@@ -36,3 +36,6 @@ env/
 # Operativsystem
 Thumbs.db
 .DS_Store
+
+# releases
+/releases
