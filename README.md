@@ -1,5 +1,7 @@
 # DigComp 3.0 på svenska
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19652093.svg)](https://doi.org/10.5281/zenodo.19652093)
+
 Öppen, spårbar översättning av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)** till svenska.
 
 ## Status
