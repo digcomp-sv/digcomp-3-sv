@@ -4,6 +4,22 @@ Detta dokument registrerar avvägningar som gjorts mellan möjliga svenska terme
 
 ---
 
+## 2026-04-19 — "Misinformation" / "Disinformation" → "Missinformation" / "Desinformation"
+
+**Alternativ övervägda:** misinformation, missinformation (för "misinformation"); desinformation (för "disinformation").
+
+**Valt:** Missinformation (med två s) respektive desinformation.
+
+**Motivering:** De två termerna betecknar olika företeelser och ska hållas åtskilda i översättningen. Enligt MSB avser **desinformation** medvetet förvanskad eller felaktig information spridd med avsikt att påverka mottagaren. **Missinformation** används för oavsiktligt felaktig information – ofta oavsiktlig spridning av desinformation, men också annan felaktig information som sprids utan påverkansavsikt. DigComp använder båda termerna parallellt och distinktionen måste bevaras i den svenska översättningen.
+
+Stavningen "missinformation" (med två s) är rekommenderad av Institutet för språk och folkminnen (Isof). Engelskans "misinformation" stavas med ett s, men det svenska förledet "miss-" (i betydelsen "felaktigt", "misslyckat") har etablerad stavning med två s i svenska ordlistor. Kalkeringen "misinformation" förekommer i svenskt skrivbruk men avviker från svensk ordbildningsnorm.
+
+**Påverkar:** GLOSSARY.md, translation_principles.md, samtliga CS- och LO-texter som innehåller någon av termerna.
+
+**Källa:** Institutet för språk och folkminnen, Frågelådan: <https://frageladan.isof.se/faqs/31473>. MSB:s definition av desinformation återges i samma svar.
+
+---
+
 ## 2026-04-19 — Proficiency level names (4-nivåskalan)
 
 **Alternativ övervägda:** Grundläggande/Mellannivå/Avancerad/Mycket avancerad; Grund/Medel/Avancerad/Mycket avancerad; Grundläggande/Mellan/Avancerad/Högt avancerad.
