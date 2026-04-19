@@ -73,7 +73,7 @@ Källa: TBD. Diskussionspost.
 **Digital identity** → **Digital identitet**
 Källa: eIDAS-förordningen, DIGG. ✅
 
-**Digital literacy** — Inte en DigComp 3.0-term, men förekommer i diskussion. Observera: "digital kompetens" och "digital literacy" är inte synonymer i svensk kontext.
+**Digital literacy** → **Digital litteracitet** OBS. Litteracitet är inte ett vanligt svenskt ord/uttryck. Jämför med Alneng, M. & Steinrud, J. Ramverk för medie- och informationskunnighet. 
 
 **Digital platforms and services** → **Digitala plattformar och tjänster**
 Källa: DSA (förordning (EU) 2022/2065), svensk version. ✅
