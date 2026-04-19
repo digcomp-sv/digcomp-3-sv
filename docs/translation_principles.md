@@ -1,12 +1,28 @@
 # Översättningsprinciper
 
-## 1. Grundprinciper
+## 1a. Grundprinciper
 
 **Spårbarhet framför elegans.** Varje term ska kunna motiveras med källa. Om en elegant översättning skulle dölja en etablerad svensk juridisk eller facklig term, väljs den etablerade termen.
 
 **Ramverket, inte ramverkets ton.** DigComp 3.0 är skrivet i en formell EU-byråkratisk engelska med återkommande fraser ("Acknowledge the benefits of…", "Recognise that…"). Svenska översättningen ska vara läsbar svenska, inte ett kalkerat EU-svensk. Verbvalen kan variera där engelskan upprepar.
 
 **Individen synliggörs.** Engelskans "individuals" översätts inte mekaniskt till "individer". I många fall är "personer" eller "man" naturligare. Subjektet ska framgå tydligt.
+
+## 1b. Språkliga grundval
+
+Tre strukturella val som gäller genomgående i hela översättningen:
+
+### Tilltalsnivå
+
+Engelskan använder "individuals" som återkommande subjekt. På svenska används **opersonlig konstruktion som default** ("Att bedöma...", "Att identifiera..."). När ett subjekt krävs för tydlighet används **"personen"** – aldrig "individen" (för formellt) eller "man" (könskodat och för vardagligt för ett ramverk).
+
+### Verbform
+
+Verb i learning outcomes och competence statements formuleras i **presens indikativ** ("Identifierar...", "Bedömer...", "Känner till..."), inte i infinitiv ("Att identifiera..."). Detta följer SeQF och gymnasieskolans ämnesplaner och läser som handlingskompetens snarare än beskrivning.
+
+### Ordet "digital"
+
+Ramverket handlar i sin helhet om digital kompetens. Ordet "digital" används därför **där det är semantiskt centralt**, men **kortas bort där det är redundant**. "In digital environments" upprepas inte mekaniskt i varje mening – den digitala kontexten är underförstådd.
 
 ## 2. ID-system
 
@@ -68,8 +84,6 @@ Följande termer ska användas konsekvent och är fastställda i `GLOSSARY.md`:
 | Assess… | Bedömer… |
 | Support others to… | Stödjer andra att… |
 | Lead or contribute to… | Leder eller bidrar till… |
-
-Verben formuleras i presens indikativ ("Identifierar…"), inte infinitiv ("Att identifiera…"). Detta följer SeQF och övriga svenska kompetensramverk.
 
 ## 7. "Digital environments"
 
