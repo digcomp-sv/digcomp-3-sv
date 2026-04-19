@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Om du använder denna översättning i ditt arbete, vänligen citera den enligt nedan."
+title: "DigComp 3.0 på svenska"
+abstract: "Öppen svensk översättning av DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition). Projektet är initierat av Terese Raymond och planeras långsiktigt förvaltas inom en lämplig öppenhetsorganisation."
+authors:
+  - name: "digcomp-sv contributors"
+    website: "https://github.com/digcomp-sv/digcomp-3-sv/graphs/contributors"
+contact:
+  - family-names: "Raymond"
+    given-names: "Terese"
+    orcid: "https://orcid.org/0009-0000-5868-4802"
+    affiliation: "Project initiator"
+repository-code: "https://github.com/digcomp-sv/digcomp-3-sv"
+url: "https://github.com/digcomp-sv/digcomp-3-sv"
+license: CC-BY-SA-4.0
+type: dataset
+keywords:
+  - DigComp
+  - digital kompetens
+  - European Digital Competence Framework
+  - Swedish translation
+  - svenska
+  - EU
+  - open knowledge
+references:
+  - type: report
+    title: "DigComp 3.0: European Digital Competence Framework - Fifth Edition"
+    authors:
+      - family-names: "Cosgrove"
+        given-names: "Judith"
+      - family-names: "Cachia"
+        given-names: "Romina"
+    year: 2025
+    publisher:
+      name: "Publications Office of the European Union"
+    doi: "10.2760/0001149"
