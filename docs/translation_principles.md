@@ -42,8 +42,8 @@ Följande termer ska användas konsekvent och är fastställda i `GLOSSARY.md`:
 | personal data | personuppgifter | GDPR svensk version, art. 4 |
 | data protection | dataskydd | GDPR svensk version |
 | privacy | integritet / personlig integritet | Kontextberoende |
-| misinformation | missinformation | Språkrådet |
-| disinformation | desinformation | Språkrådet |
+| misinformation | missinformation | Institutet för språk och folkminnen (Isof) |
+| disinformation | desinformation | Institutet för språk och folkminnen (Isof) |
 | wellbeing | välbefinnande | Folkhälsomyndigheten |
 | accessibility | tillgänglighet | DOS-lagen, WCAG |
 | AI system | AI-system | AI-förordningen sv version |
