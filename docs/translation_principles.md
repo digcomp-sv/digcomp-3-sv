@@ -54,12 +54,12 @@ Följande termer ska användas konsekvent och är fastställda i `GLOSSARY.md`:
 
 | EN | SV |
 |---|---|
-| Foundation | Grundläggande |
-| Intermediate | Mellannivå |
+| Basic | Grund |
+| Intermediate | Medel |
 | Advanced | Avancerad |
 | Highly advanced | Mycket avancerad |
 
-*Diskuterbart – se decision_log.md punkt [TBD].*
+*Fastställt 2026-04-19. Se decision_log.md för motivering och övervägda alternativ.*
 
 ## 5. Dimensioner
 
