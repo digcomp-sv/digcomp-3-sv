@@ -50,7 +50,21 @@ Följande termer ska användas konsekvent och är fastställda i `GLOSSARY.md`:
 | high-risk AI system | AI-system med hög risk | AI-förordningen art. 6 |
 | digital identity | digital identitet | eIDAS, DIGG |
 
-## 4. Kompetensnivåer
+## 4a. Kompetensområden
+
+| EN | SV |
+|---|---|
+| Information search, evaluation and management | Söka, bedöma och hantera information |
+| Communication and collaboration | Kommunicera och samarbeta |
+| Content creation | Skapa innehåll |
+| Safety, wellbeing, and responsible use | Säkerhet, välbefinnande och ansvarsfullt användande |
+| Problem identification and solving | Identifiera och lösa problem |
+
+Områdesnamnen följer verbform där detta läses idiomatiskt och substantivform där ett tillstånd eller förhållande ska uttryckas. Engelska källan använder genomgående substantivkonstruktion (nominaliserad gerundium), men i svenska läses handlingsorienterad verbform mer naturligt för områden som beskriver vad personen gör. Område 4 avviker eftersom "säkerhet" och "välbefinnande" är tillstånd, inte handlingar – samma skäl som ligger bakom att engelskan själv bryter sin gerundiumform i 2.5 Digital behaviour, 3.3 Copyright and licences, 3.4 Computational thinking and programming och 4.4 Environmental impacts.
+
+*Fastställt 2026-04-20. Se decision_log.md för motivering.*
+
+## 4b. Kompetensnivåer
 
 | EN | SV |
 |---|---|
