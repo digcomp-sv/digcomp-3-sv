@@ -44,7 +44,7 @@ SeQF har inga helt motsvarande nivåer och gav därför ingen bindande vägledni
 
 DigComp:s egen definition ("marginalisation of an individual... deprived of full access") beskriver ett aktivt skeende. Inte ett passivt tillstånd. Och den svenska översättningen bör spegla detta.
 
-Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk förenkling som inte passar i ett ramverk med rättighetsperspektiv.
+Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk förenkling som inte passar i ett ramverk.
 
 **Påverkar:** GLOSSARY.md, samt alla framtida översättningar som innehåller termen.
 
