@@ -209,7 +209,8 @@ Källa: Språkrådet.
 
 **Competence statement** → ⬜
 
-**Complex (task)** → ⬜
+**Complex (task)** → **komplex (uppgift)** ✅
+I DigComp definieras en komplex uppgift som en som inte är väldefinierad och består av många olika sammanlänkade delar. Antonym till "simple" och strukturellt motpol till "well-defined".
 
 **Computable and non-computable problems** → ⬜
 
@@ -510,7 +511,8 @@ Källa: Etablerad.
 
 ## S
 
-**Simple (task)** → ⬜
+**Simple (task)** → **enkel (uppgift)** ✅
+I DigComp definieras en enkel uppgift som en som är väldefinierad och består av få delar. Antonym till "complex".
 
 **Skill** → **Färdighet** ✅
 Dimension i learning outcomes.
@@ -565,3 +567,8 @@ Källa: Folkhälsomyndigheten, målområde 7.
 **Wellbeing (in digital environments)** → **Välbefinnande** ✅
 Se Wellbeing.
 Källa: Folkhälsomyndigheten, målområde 7.
+
+**Well-defined (task, problem)** → **väldefinierad (uppgift, problem)** ✅
+*Ej i JRC:s glossary som fristående term men förekommer återkommande i CS/LO-texterna och i definitionerna av "simple" och "complex".*
+DigComp använder "well-defined" i teknisk betydelse från problemlösningsforskning: ett problem där starttillstånd, måltillstånd och tillåtna operationer är strukturellt specificerade. Inte att förväxla med "avgränsad" (som refererar till skala/omfattning, inte struktur).
+Källa: Etablerad svensk fackterm i kognitionspsykologi och problemlösningsforskning (Newell & Simon-traditionen).
