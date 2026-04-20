@@ -4,28 +4,6 @@
 
 Öppen, spårbar översättning av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)** till svenska.
 
-## Vad är DigComp 3.0?
-
-DigComp 3.0 är Europeiska kommissionens ramverk för digital kompetens för medborgare – femte utgåvan, publicerad 2025. Ramverket beskriver vad digital kompetens innebär i praktiken: vilka kunskaper, färdigheter och förhållningssätt som behövs för att delta fullt ut i ett digitaliserat samhälle.
-
-Det är uppbyggt kring fem kompetensområden:
-
-1. **Information search, evaluation and management** – Söka, bedöma och hantera information
-2. **Communication and collaboration** – Kommunicera och samarbeta
-3. **Content creation** – Skapa innehåll
-4. **Safety, wellbeing and responsible use** – Säkerhet, välbefinnande och ansvarsfullt användande
-5. **Problem identification and solving** – Identifiera och lösa problem
-
-Inom dessa områden ryms 21 specifika kompetenser, 362 kompetenspåståenden och 523 learning outcomes fördelade på fyra kompetensnivåer.
-
-Originalpublikationen finns hos JRC:
-
-- [DigComp 3.0 på JRC:s webbplats](https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30_en)
-- [PDF (direktlänk)](https://publications.jrc.ec.europa.eu/repository/handle/JRC144121)
-- [Editerbar version på Zenodo](https://doi.org/10.5281/zenodo.17780383)
-
-Det här repot översätter det verket till svenska.
-
 ## Status
 
 Version: **0.0.1 (extrahering från JRC-källa klar, översättning ej påbörjad)**
@@ -50,7 +28,7 @@ Originaldata (oförändrad) ligger i `sources/`. Översättningsarbetet sker enb
 
 Syftet är att tillhandahålla en öppen och maskinläsbar svensk version av DigComp 3.0 som kan återanvändas av olika aktörer utan att översättningen behöver göras om för varje sammanhang.
 
-Alla val dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
+Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar för val som krävt avvägning dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Översättningsprinciperna står i `docs/translation_principles.md`. Större strukturella förändringar i dokumentationen loggas i `docs/CHANGELOG.md`. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
 
 Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond. Arbetet är strukturerat för att i framtiden överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
 
@@ -83,8 +61,9 @@ digcomp-3-sv/
 │   └── glossary/sv.csv
 ├── docs/
 │   ├── translation_principles.md         # Översättningsprinciper
-│   ├── decision_log.md                   # Terminologibeslut
-│   └── errata_tracking.md                # Arbetsflöde för JRC:s errata (via GitHub Issues)
+│   ├── decision_log.md                   # Terminologibeslut (DL-ID)
+│   ├── errata_tracking.md                # Arbetsflöde för JRC:s errata (via GitHub Issues)
+│   └── CHANGELOG.md                      # Större strukturella förändringar i dokumentationen
 ├── scripts/
 │   ├── README.md                         # Dokumentation av scripten
 │   ├── requirements.txt                  # Python-beroenden
@@ -92,7 +71,7 @@ digcomp-3-sv/
 │   └── export_to_weblate_csv.py          # Export till Weblate-format
 ├── releases/                             # Genererade remissdokument (taggade)
 ├── CONTRIBUTING.md
-├── GLOSSARY.md                           # Läsbar termlista SV↔EN
+├── TERMINOLOGI.md                        # Samtliga fastställda svenska val (termer + ramverksstruktur)
 ├── LICENSE                               # Översikt över licenser
 ├── LICENSE-CC-BY-SA                      # För översättningen och datan
 └── LICENSE-scripts                       # Apache 2.0 för scripts/

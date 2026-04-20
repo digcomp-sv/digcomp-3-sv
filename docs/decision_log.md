@@ -1,34 +1,53 @@
 # Terminologibeslut
 
-Detta dokument registrerar avvägningar som gjorts mellan möjliga svenska termer där valet inte var självklart. Varje post har datum, beslutsfattare, alternativ, valt alternativ och motivering. Tidigare beslut kan revideras – i så fall läggs en ny post till, den gamla stryks inte.
+Detta dokument registrerar avvägningar som gjorts mellan möjliga svenska termer där valet inte var självklart. Varje post har ett ID (`DL-XXX`), datum, alternativ, valt alternativ och motivering. Tidigare beslut kan revideras – i så fall läggs en ny post till med nytt DL-ID, den gamla stryks inte utan markeras som ersatt med korsreferens.
+
+Posterna listas i omvänd kronologisk ordning (nyaste först). DL-ID:na tilldelas löpande och behåller sin nummer även när den underliggande posten ersätts.
 
 ---
 
-## 2026-04-20 — Kompetensområden (5 områden)
+## DL-006 — 2026-04-20 — Kompetensområden (5 områden)
 
 **Alternativ övervägda:** Verbform genomgående; substantivform genomgående; blandad form per område utifrån idiomatisk läsning.
 
-**Valt:** Blandad form. Verbform i område 1, 2, 3 och 5. Substantivform i område 4.
+**Valt:** Substantivform genomgående.
 
-1. Söka, bedöma och hantera information
-2. Kommunicera och samarbeta
-3. Skapa innehåll
+1. Sökning, bedömning och hantering av information
+2. Kommunikation och samarbete
+3. Skapande av innehåll
 4. Säkerhet, välbefinnande och ansvarsfullt användande
-5. Identifiera och lösa problem
+5. Problemidentifiering och problemlösning
 
-**Motivering:** Engelska källan använder genomgående substantivkonstruktion (huvudsakligen gerundium), men bryter mönstret i fyra av 21 kompetenser där innehållet är tillstånd eller förhållande snarare än handling (2.5, 3.3, 3.4, 4.4). Svenska översättningen följer samma logik på områdesnivå: verbform där området beskriver vad personen gör, substantivform där området beskriver ett tillstånd att upprätthålla. Område 4 ("Safety, wellbeing, and responsible use") innehåller två tillståndsord ("säkerhet", "välbefinnande") där verbkonstruktion skulle vara otymplig, och behåller därför substantivform.
+**Motivering:** Engelska källan använder genomgående substantivkonstruktion (huvudsakligen gerundium). Den svenska översättningen följer samma form av lojalitet mot ramverket. Substantivform är också den etablerade genren för rubriker på denna abstraktionsnivå i svenskt fackspråk (myndighetsdokument, utbildningsplaner, läroplaner) och separerar tydligt områdesnamnen från learning outcomes och competence statements, där verb i presens indikativ används.
 
-Verbformen i övriga områden harmonierar med hur kompetenserna på nivån under kommer att läsas på svenska (t.ex. "Söka, välja ut och filtrera information" under område 1).
+Variation mellan områdena sker inte i form utan i struktur, där varje områdesnamn följer sin egen inre logik:
+
+- **Område 1 och 3** har verbalsubstantiv med objekt angivet via prepositionen "av". Denna konstruktion gör det explicit vad handlingarna syftar på.
+- **Område 2** har två parallella handlingar utan gemensamt objekt.
+- **Område 4** är tillståndsorienterat (säkerhet, välbefinnande) med en ansvarsdimension – inte handlingsorienterat.
+- **Område 5** har handlingar med objekt inbakat i sammansatta ord (problem-identifiering, problem-lösning).
 
 **Termval inom område 4:**
-- "Wellbeing" översätts "välbefinnande" enligt fastställd term i GLOSSARY.md (källa: Folkhälsomyndigheten). Avvikelsen "välmående" är mer vardaglig och inte facktermen.
-- "Use" översätts "användande" (inte "användning"). Användande och användning är synonyma i svensk fackterminologi; valet här är språkligt snarare än principiellt.
+- "Wellbeing" översätts "välbefinnande" enligt fastställd term i TERMINOLOGI.md (källa: Folkhälsomyndigheten).
+- "Use" översätts "användande" (inte "användning"). Båda är synonyma i svensk fackterminologi; valet här är språkligt snarare än principiellt.
 
-**Påverkar:** `data/sv/competence_areas.json` (fältet `name.sv` för samtliga fem områden); `translation_principles.md` punkt 4a.
+**Påverkar:** `data/sv/competence_areas.json` (fältet `name.sv` för samtliga fem områden); `translation_principles.md`; `TERMINOLOGI.md`.
 
 ---
 
-## 2026-04-19 — "Misinformation" / "Disinformation" → "Missinformation" / "Desinformation"
+## DL-005 — 2026-04-20 — REVIDERING: "Digital exclusion" → "Digital exkludering"
+
+**Ersätter:** DL-001 (2026-04-18 — Digital exclusion → Digitalt utanförskap).
+
+**Reviderat till:** Digital exkludering.
+
+**Motivering:** Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk förenkling som inte passar i ett ramverk.
+
+**Påverkar:** `TERMINOLOGI.md`, samt alla framtida översättningar som innehåller termen.
+
+---
+
+## DL-004 — 2026-04-19 — "Misinformation" / "Disinformation" → "Missinformation" / "Desinformation"
 
 **Alternativ övervägda:** misinformation, missinformation (för "misinformation"); desinformation (för "disinformation").
 
@@ -38,13 +57,13 @@ Verbformen i övriga områden harmonierar med hur kompetenserna på nivån under
 
 Stavningen "missinformation" (med två s) är rekommenderad av Institutet för språk och folkminnen (Isof). Engelskans "misinformation" stavas med ett s, men det svenska förledet "miss-" (i betydelsen "felaktigt", "misslyckat") har etablerad stavning med två s i svenska ordlistor. Kalkeringen "misinformation" förekommer i svenskt skrivbruk men avviker från svensk ordbildningsnorm.
 
-**Påverkar:** GLOSSARY.md, translation_principles.md, samtliga CS- och LO-texter som innehåller någon av termerna.
+**Påverkar:** `TERMINOLOGI.md`, `translation_principles.md`, samtliga CS- och LO-texter som innehåller någon av termerna.
 
 **Källa:** Institutet för språk och folkminnen, Frågelådan: <https://frageladan.isof.se/faqs/31473>. MSB:s definition av desinformation återges i samma svar.
 
 ---
 
-## 2026-04-19 — Proficiency level names (4-nivåskalan)
+## DL-003 — 2026-04-19 — Proficiency level names (4-nivåskalan)
 
 **Alternativ övervägda:** Grundläggande/Mellannivå/Avancerad/Mycket avancerad; Grund/Medel/Avancerad/Mycket avancerad; Grundläggande/Mellan/Avancerad/Högt avancerad.
 
@@ -54,27 +73,11 @@ Stavningen "missinformation" (med två s) är rekommenderad av Institutet för s
 
 SeQF har inga helt motsvarande nivåer och gav därför ingen bindande vägledning. Den 8-nivåbaserade EQF-kopplingen i DigComp 3.0 hanteras som separat beslut.
 
-**Påverkar:** `data/sv/proficiency_levels.json` (4-nivåskalan); samtliga CS- och LO-texter som innehåller nivåhänvisningar; `GLOSSARY.md` och `translation_principles.md` punkt 4.
+**Påverkar:** `data/sv/proficiency_levels.json` (4-nivåskalan); samtliga CS- och LO-texter som innehåller nivåhänvisningar; `TERMINOLOGI.md` och `translation_principles.md`.
 
 ---
 
-## 2026-04-19 — REVIDERING: "Digital exclusion" → "Digital exkludering"
-
-**Tidigare beslut (2026-04-18):** Digitalt utanförskap.
-
-**Reviderat till:** Digital exkludering.
-
-**Motivering:** Vid närmare övervägande väger den strukturella precisionen tyngre än matchningen mot myndighetspraxis. "Exkludering" betonar det aktiva skeendet – att någon eller något exkluderar – medan "utanförskap" tonar ner den systemiska dimensionen och placerar fokus på den uteslutnas tillstånd. 
-
-DigComp:s egen definition ("marginalisation of an individual... deprived of full access") beskriver ett aktivt skeende. Inte ett passivt tillstånd. Och den svenska översättningen bör spegla detta.
-
-Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk förenkling som inte passar i ett ramverk.
-
-**Påverkar:** GLOSSARY.md, samt alla framtida översättningar som innehåller termen.
-
----
-
-## 2026-04-18 — "Attitude" → "Förhållningssätt"
+## DL-002 — 2026-04-18 — "Attitude" → "Förhållningssätt"
 
 **Alternativ övervägda:** attityd, hållning, inställning, förhållningssätt.
 
@@ -82,13 +85,13 @@ Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk
 
 **Motivering:** "Attityd" på svenska har en stark konnotation av subjektiv läggning eller åsikt. DigComp använder "attitude" i Bloom-traditionen där termen syftar på ett orienterande, handlingsberedskapsskapande förhållande till ett kunskapsområde. Svensk utbildningsterminologi (SeQF, gymnasieskolans ämnesplaner, högskoleförordningens bilaga 2) använder konsekvent "förhållningssätt" för denna dimension. Valet stärker också att DigComp läses som ett yrkesmässigt kompetensramverk, inte som ett personlighetsmått.
 
-**Påverkar:** Alla 107 attityd-märkta LO:n, fältet `dimension` i `learning_outcomes.json`.
+**Påverkar:** Alla 107 attityd-märkta LO:n, fältet `dimension` i `learning_outcomes.json`; `TERMINOLOGI.md`.
 
 ---
 
-## 2026-04-18 — "Digital exclusion" → "Digitalt utanförskap" [ERSATT]
+## DL-001 — 2026-04-18 — "Digital exclusion" → "Digitalt utanförskap" [ERSATT av DL-005]
 
-> ⚠️ **Detta beslut är ersatt av revideringen 2026-04-19.** Posten behålls för spårbarhet enligt dokumentets revideringsprincip.
+> ⚠️ **Detta beslut är ersatt av DL-005 (2026-04-20).** Posten behålls för spårbarhet enligt dokumentets revideringsprincip.
 
 **Alternativ övervägda:** digital exkludering, digitalt utanförskap, digital marginalisering.
 
@@ -96,14 +99,14 @@ Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk
 
 **Motivering:** "Digital exkludering" är en kalkering som förekommer i EU-översättningar men sällan i svensk myndighetskommunikation. "Digitalt utanförskap" används av MSB, SKR, PTS och Post- och telestyrelsen i uppdragsbeskrivningar och rapporter. Termen kopplar också till det bredare "utanförskap"-begreppet i svensk socialpolitisk diskurs, vilket är korrekt givet DigComp-definitionens fokus på deltagande i ekonomiskt, socialt och politiskt liv.
 
-**Noterat motargument:** "Exkludering" betonar den aktiva handlingen (någon exkluderas *av* systemet), medan "utanförskap" kan läsas som passivt tillstånd. Detta är en reell semantisk skillnad och kan komma att omprövas. För DigidelGov-sammanhang, där strukturella barriärer är centrala, kan "digital exkludering" vara mer precist i vissa texter. Beslutet gäller ramverkstermen; analysen i förklarande texter kan vara finkornigare.
+**Noterat motargument:** "Exkludering" betonar den aktiva handlingen (någon exkluderas *av* systemet), medan "utanförskap" kan läsas som passivt tillstånd. Detta är en reell semantisk skillnad och kan komma att omprövas.
 
 ---
 
 ## Mall för nya poster
 
 ```markdown
-## ÅÅÅÅ-MM-DD — "EN-term" → "SV-term"
+## DL-XXX — ÅÅÅÅ-MM-DD — "EN-term" → "SV-term"
 
 **Alternativ övervägda:** ...
 
@@ -115,3 +118,5 @@ Myndighetstermen "digitalt utanförskap" är väletablerad men bär en semantisk
 
 **Källa:** [Om valet stöds av etablerad svensk källa – länk eller referens]
 ```
+
+Vid revidering av ett tidigare beslut: använd formatet `DL-XXX — ÅÅÅÅ-MM-DD — REVIDERING: "...", ange **Ersätter:** i ingressen, och markera den ersatta posten med `[ERSATT av DL-XXX]` i rubriken.
