@@ -3,57 +3,57 @@
     {
       "name": {
         "en": "Basic",
-        "sv": null
+        "sv": "Grund"
       },
       "description": {
         "en": "At basic level, individuals remember and implement simple tasks with guidance as needed.",
-        "sv": null
+        "sv": "På grundnivå minns och utför personen enkla uppgifter, med vägledning vid behov."
       },
       "purpose": {
         "en": "To support personal, learning and/or working goals and participate in society.",
-        "sv": null
+        "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål samt deltagande i samhället."
       }
     },
     {
       "name": {
         "en": "Intermediate",
-        "sv": null
+        "sv": "Medel"
       },
       "description": {
         "en": "At intermediate level, individuals identify and implement well-defined tasks and solve well-defined problems autonomously.",
-        "sv": null
+        "sv": "På medelnivå identifierar och utför personen väldefinierade uppgifter och löser väldefinierade problem självständigt."
       },
       "purpose": {
         "en": "To support personal, learning and/or working goals and participate autonomously in society.",
-        "sv": null
+        "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål samt självständigt deltagande i samhället."
       }
     },
     {
       "name": {
         "en": "Advanced",
-        "sv": null
+        "sv": "Avancerad"
       },
       "description": {
         "en": "At advanced level, individuals assess and apply solutions to a variety of complex tasks autonomously and adapt to a variety of contexts to evaluate and execute tasks appropriately, guiding others if and as required.",
-        "sv": null
+        "sv": "På avancerad nivå bedömer och tillämpar personen självständigt lösningar på en mängd olika komplexa uppgifter och anpassar sig till olika sammanhang för att utvärdera och utföra uppgifter på lämpligt sätt, samt vägleder andra vid behov."
       },
       "purpose": {
         "en": "To support personal, learning and/or working goals, participate effectively in society, and manage or support others in achieving their goals.",
-        "sv": null
+        "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål, effektivt deltagande i samhället samt leder eller stödjer andra att uppnå sina mål."
       }
     },
     {
       "name": {
         "en": "Highly advanced",
-        "sv": null
+        "sv": "Mycket avancerad"
       },
       "description": {
         "en": "At highly advanced level, individuals assess, evaluate and resolve highly complex or specialised problems to create new solutions or adapt existing ones, leading and guiding others if and as required.",
-        "sv": null
+        "sv": "På mycket avancerad nivå bedömer, utvärderar och löser personen mycket komplexa eller specialiserade problem för att skapa nya lösningar eller anpassa befintliga, samt leder och vägleder andra vid behov."
       },
       "purpose": {
         "en": "To support personal, learning and/or working goals, help others to participate effectively in society, lead or support others to achieve complex goals, and/or lead or contribute to improvements in or new solutions for highly complex problems.",
-        "sv": null
+        "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål, hjälper andra att delta effektivt i samhället, leder eller stödjer andra att uppnå komplexa mål, och/eller leder eller bidrar till förbättringar eller nya lösningar för mycket komplexa problem."
       }
     }
   ],
@@ -63,11 +63,11 @@
       "cefr_style": "A1",
       "parent_level_name": {
         "en": "Basic",
-        "sv": null
+        "sv": "Grund"
       },
       "description": {
         "en": "At the bottom of the Basic level, individuals require guidance to recognise and implement many or most simple tasks.",
-        "sv": null
+        "sv": "På nedre grundnivå kräver personen vägledning för att känna igen och utföra många eller de flesta enkla uppgifter."
       }
     },
     {
@@ -75,11 +75,11 @@
       "cefr_style": "A2",
       "parent_level_name": {
         "en": "Basic",
-        "sv": null
+        "sv": "Grund"
       },
       "description": {
         "en": "At the top of the Basic level, individuals remember and implement simple tasks with little or no guidance.",
-        "sv": null
+        "sv": "På övre grundnivå minns och utför personen enkla uppgifter med lite eller ingen vägledning."
       }
     },
     {
@@ -87,11 +87,11 @@
       "cefr_style": "B1",
       "parent_level_name": {
         "en": "Intermediate",
-        "sv": null
+        "sv": "Medel"
       },
       "description": {
         "en": "At the bottom of the Intermediate level, individuals show some autonomy to identify and implement well-defined tasks and solve well-defined problems.",
-        "sv": null
+        "sv": "På nedre medelnivå visar personen viss självständighet i att identifiera och utföra väldefinierade uppgifter och lösa väldefinierade problem."
       }
     },
     {
@@ -99,11 +99,11 @@
       "cefr_style": "B2",
       "parent_level_name": {
         "en": "Intermediate",
-        "sv": null
+        "sv": "Medel"
       },
       "description": {
         "en": "At the top of the Intermediate level, individuals confidently and autonomously identify and implement well-defined tasks and solve well-defined problems.",
-        "sv": null
+        "sv": "På övre medelnivå identifierar och utför personen självsäkert och självständigt väldefinierade uppgifter och löser väldefinierade problem."
       }
     },
     {
@@ -111,11 +111,11 @@
       "cefr_style": "C1",
       "parent_level_name": {
         "en": "Advanced",
-        "sv": null
+        "sv": "Avancerad"
       },
       "description": {
         "en": "At the bottom of the Advanced level, individuals assess and apply solutions to a variety of well-defined tasks and engage with some complex tasks. They identify situations where approaches may need to be adapted, and guide others on well-defined tasks if and as required.",
-        "sv": null
+        "sv": "På nedre avancerad nivå bedömer och tillämpar personen lösningar på en mängd olika väldefinierade uppgifter och tar sig an vissa komplexa uppgifter. Personen identifierar situationer där tillvägagångssätt kan behöva anpassas, samt vägleder andra i väldefinierade uppgifter vid behov."
       }
     },
     {
@@ -123,11 +123,11 @@
       "cefr_style": "C1",
       "parent_level_name": {
         "en": "Advanced",
-        "sv": null
+        "sv": "Avancerad"
       },
       "description": {
         "en": "At the top of the Advanced level, individuals work confidently on a variety of complex tasks, respond effectively to challenges in changing contexts, and lead or manage complex projects, guiding others on complex tasks if and as required.",
-        "sv": null
+        "sv": "På övre avancerad nivå arbetar personen självsäkert med en mängd olika komplexa uppgifter, svarar effektivt på utmaningar i föränderliga sammanhang, och leder eller driver komplexa projekt, samt vägleder andra i komplexa uppgifter vid behov."
       }
     },
     {
@@ -135,11 +135,11 @@
       "cefr_style": "C2",
       "parent_level_name": {
         "en": "Highly advanced",
-        "sv": null
+        "sv": "Mycket avancerad"
       },
       "description": {
         "en": "At the bottom of the Highly Advanced level, individuals assess highly complex or specialised problems and may contribute to new solutions or adapt existing ones, leading and guiding others if and as required.",
-        "sv": null
+        "sv": "På nedre mycket avancerad nivå bedömer personen mycket komplexa eller specialiserade problem och kan bidra till nya lösningar eller anpassa befintliga, samt leder och vägleder andra vid behov."
       }
     },
     {
@@ -147,11 +147,11 @@
       "cefr_style": "C2",
       "parent_level_name": {
         "en": "Highly advanced",
-        "sv": null
+        "sv": "Mycket avancerad"
       },
       "description": {
         "en": "At the top of the Highly Advanced level, individuals lead and guide others on the creation of solutions to highly complex or specialised problems.",
-        "sv": null
+        "sv": "På övre mycket avancerad nivå leder och vägleder personen andra i att skapa lösningar på mycket komplexa eller specialiserade problem."
       }
     }
   ]
