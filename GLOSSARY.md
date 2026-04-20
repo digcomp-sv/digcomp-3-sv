@@ -40,8 +40,8 @@ Källa: Språkrådet, terminologicentrum TNC. ✅
 
 ## C
 
-**Chatbot** → **Chatbott / chattbot**
-Källa: Språkrådets rekommendation. ✅ (Diskussionspost: används ofta oöversatt.)
+**Chatbot** → **Chattbot**
+Källa: SAOL. ✅
 
 **Copyright** → **Upphovsrätt**
 Källa: Upphovsrättslagen (1960:729). ✅
