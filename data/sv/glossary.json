@@ -2,53 +2,53 @@
   {
     "term": {
       "en": "Accessibility",
-      "sv": "Tillgänglighet"
+      "sv": null
     },
     "explanation": {
       "en": "Extent to which products, systems, services, environments and facilities can be used by people from a population with the widest range of user needs, characteristics and capabilities to achieve identified goals in identified contexts of use (which includes direct use or use supported by assistive technologies).",
-      "sv": "Den utsträckning i vilken produkter, system, tjänster, miljöer och faciliteter kan användas av människor med bredast möjliga spann av användarbehov och förmågor."
+      "sv": null
     },
-    "swedish_source": "DOS-lagen (2018:1937), WCAG 2.1.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "AI system",
-      "sv": "AI-system"
+      "sv": null
     },
     "explanation": {
       "en": "A machine-based system designed to operate with varying levels of autonomy, that may exhibit adaptiveness after deployment and that, for explicit or implicit objectives, infers from the input it receives how to generate output, such as predictions, content, recommendations or decisions that can influence physical or virtual environments.",
-      "sv": "Ett maskinbaserat system som är utformat för att fungera med varierande grader av autonomi och som, för explicita eller implicita mål, härleder hur utdata ska genereras utifrån indata."
+      "sv": null
     },
-    "swedish_source": "AI-förordningen (EU) 2024/1689, art. 3.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "Algorithm",
-      "sv": "Algoritm"
+      "sv": null
     },
     "explanation": {
       "en": "A formula or set of rules (or procedure, processes, or instructions) for solving a problem or for performing a task. Common examples include decision trees, clustering algorithms, classification algorithms, or regression algorithms.",
       "sv": null
     },
-    "swedish_source": "SAOL.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "Anonymisation",
-      "sv": "Anonymisering"
+      "sv": null
     },
     "explanation": {
       "en": "In the General Data Protection Regulation (GDPR, 2018), anonymisation refers to the processing of data with the aim of irreversibly preventing the identification of an individual person.",
-      "sv": "Behandling av data i syfte att oåterkalleligen förhindra identifiering av en enskild person."
+      "sv": null
     },
-    "swedish_source": "Dataskyddsförordningen (GDPR), skäl 26.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -80,14 +80,14 @@
   {
     "term": {
       "en": "Assistive technologies",
-      "sv": "Hjälpmedel / tekniska hjälpmedel"
+      "sv": null
     },
     "explanation": {
       "en": "An umbrella term for assistive products and their related systems and services. In DigComp, assistive technologies refer to those used in digital environments. Examples include but are not limited to screen readers, adaptive keyboards, alternative input devices, reading assistants, augmented and alternative communication tools, and electronic magnifiers.",
-      "sv": "I DigComp-kontext avses digitala hjälpmedel. Exempel: skärmläsare, anpassade tangentbord, läsassistenter."
+      "sv": null
     },
-    "swedish_source": "Socialstyrelsens begreppssamling, MFD.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -106,41 +106,41 @@
   {
     "term": {
       "en": "Bias",
-      "sv": "Snedvridning / bias"
+      "sv": null
     },
     "explanation": {
       "en": "A systematic deviation from a true state. There are different forms of bias, such as the subjective bias of individuals, data and algorithm bias, developer bias and institutionalised biases that are ingrained in the underlying societal context.",
-      "sv": "Systematisk avvikelse från ett sant värde. Förekommer som subjektiv, data-, algoritm-, utvecklar- och institutionaliserad bias."
+      "sv": null
     },
-    "swedish_source": "AI-förordningen använder \"bias\".",
-    "translation_status": "in_progress",
-    "notes": "Diskussionspost – se decision_log.md."
+    "swedish_source": null,
+    "translation_status": "not_started",
+    "notes": null
   },
   {
     "term": {
       "en": "Big data",
-      "sv": "Stordata"
+      "sv": null
     },
     "explanation": {
       "en": "Massive and complex data sets that traditional data management tools cannot handle. Big data can be characterised by large volume, high variety (frequently in unstructured or semi-structured formats), high velocity in generation and processing time, and varying degrees of quality and reliability.",
       "sv": null
     },
-    "swedish_source": "Språkrådet, terminologicentrum TNC.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "Chatbot",
-      "sv": "Chattbot"
+      "sv": null
     },
     "explanation": {
       "en": "A computer program designed to simulate conversation with a human, usually over the internet, especially one used to provide information or assistance to the user as part of an automated service.",
       "sv": null
     },
-    "swedish_source": "Språkrådets rekommendation.",
-    "translation_status": "completed",
-    "notes": "(Diskussionspost: används ofta oöversatt.)"
+    "swedish_source": null,
+    "translation_status": "not_started",
+    "notes": null
   },
   {
     "term": {
@@ -262,14 +262,14 @@
   {
     "term": {
       "en": "Copyright",
-      "sv": "Upphovsrätt"
+      "sv": null
     },
     "explanation": {
       "en": "A type of intellectual property that protects original works of authorship as soon as an author fixes the work in a tangible form of expression.",
       "sv": null
     },
-    "swedish_source": "Upphovsrättslagen (1960:729).",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -431,14 +431,14 @@
   {
     "term": {
       "en": "Data protection",
-      "sv": "Dataskydd"
+      "sv": null
     },
     "explanation": {
       "en": "Refers to both the security and privacy of an individual’s personal information (such as name, data of birth, home address, email address or phone number) and personal property (such as emails, files, and accounts owned or managed by the individual). Data protection can also refer to data management and storage practices that protect data from loss, theft, or corruption.",
       "sv": null
     },
-    "swedish_source": "Dataskyddsförordningen (EU) 2016/679, svensk version.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -496,15 +496,15 @@
   {
     "term": {
       "en": "Deep-fake",
-      "sv": "Djupförfalskning / deepfake"
+      "sv": null
     },
     "explanation": {
       "en": "Generated or manipulated image, audio or video content that resembles existing persons, objects, places, entities or events and would falsely appear to a person to be authentic or truthful.",
       "sv": null
     },
-    "swedish_source": "MSB använder \"deepfake\" oöversatt; Språkrådet föreslår \"djupförfalskning\".",
-    "translation_status": "in_progress",
-    "notes": "TBD."
+    "swedish_source": null,
+    "translation_status": "not_started",
+    "notes": null
   },
   {
     "term": {
@@ -535,14 +535,14 @@
   {
     "term": {
       "en": "Digital citizenship",
-      "sv": "Digitalt medborgarskap"
+      "sv": null
     },
     "explanation": {
       "en": "the capacity to participate actively, continuously and responsibly in communities online and offline, through competent and positive engagement with digital technologies.",
-      "sv": "Förmåga att delta aktivt, kontinuerligt och ansvarsfullt i samhällen, såväl online som offline, genom kompetent och positivt engagemang med digital teknik."
+      "sv": null
     },
-    "swedish_source": "Europarådet (2022).",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -639,53 +639,53 @@
   {
     "term": {
       "en": "Digital exclusion",
-      "sv": "Digital exkludering"
+      "sv": null
     },
     "explanation": {
       "en": "Marginalisation of an individual – or of a group – deprived of full access and capacity to use information and communications technologies (ICT), which hinders their participation in the economic, social, and political life of the society. Four main factors lead to digital exclusion: limited access to digital technologies, both physical and financial; lack of motivation, including understanding the benefits of digital technologies; limited digital competence; and lack of confidence or trust, including regarding online security.",
       "sv": null
     },
     "swedish_source": null,
-    "translation_status": "completed",
-    "notes": "Betonar det aktiva strukturella skeendet. Se decision_log.md."
+    "translation_status": "not_started",
+    "notes": null
   },
   {
     "term": {
       "en": "Digital footprint",
-      "sv": "Digitalt fotavtryck / digitala spår"
+      "sv": null
     },
     "explanation": {
       "en": "The history of a person's usage of digital devices, which includes, among others, web pages downloaded, websites logged into, text, chat and social media messages sent, links clicked and social media pages liked. This information is widely used to target ads to consumers. Also referred to as a digital fingerprint.",
       "sv": null
     },
-    "swedish_source": "TBD.",
-    "translation_status": "in_progress",
-    "notes": "Diskussionspost"
+    "swedish_source": null,
+    "translation_status": "not_started",
+    "notes": null
   },
   {
     "term": {
       "en": "Digital identity",
-      "sv": "Digital identitet"
+      "sv": null
     },
     "explanation": {
       "en": "In DigComp 3.0, digital identity refers to the collection of digital information about an individual, covering aspects such as personal details, online account information, username and password credentrials, behavioural and biometric data. Digital identity has several functions, such as access to services, privacy protection, and identity theft protection. Digital identity is verified through a variety of means, such as username and password, biometric verification, digital certificates, and government-issued IDs. Examples of digital identities include social media profile, email address, online banking account data, health records and educational portal credentials. Digital identity is multifaceted and evolving and can overlap with physical identity in its referents to physical realities such as home address or fingerprint data in biometric identification.",
       "sv": null
     },
-    "swedish_source": "eIDAS-förordningen, DIGG.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "Digital inclusion",
-      "sv": "Digital inkludering"
+      "sv": null
     },
     "explanation": {
       "en": "Process that aims to ensure that an individual – or a group – can access and use information and communication technologies (ICT) to participate fully in economic, social and cultural life. Digital inclusion depends on four main factors: access to digital technologies, both physical and financial; motivation, including understanding the benefits of digital technologies; digital competence; and confidence or trust, including regarding online security.",
       "sv": null
     },
-    "swedish_source": "PTS regeringsuppdrag 2023-02-23 (Digital inkludering).",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -730,14 +730,14 @@
   {
     "term": {
       "en": "Digital platforms and services",
-      "sv": "Digitala plattformar och tjänster"
+      "sv": null
     },
     "explanation": {
       "en": "Software-based online infrastructures that are designed to facilitate user interactions and transactions. Digital platforms and services can serve a range of functions including government and public services, search engines, banking, buying and selling of products and services, online collaborative communities and social media.",
       "sv": null
     },
-    "swedish_source": "DSA (förordning (EU) 2022/2065), svensk version.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -821,27 +821,27 @@
   {
     "term": {
       "en": "Disinformation",
-      "sv": "Desinformation"
+      "sv": null
     },
     "explanation": {
       "en": "False or misleading information intentionally created and disseminated to deceive people, including for economic gain or to cause political or public harm.",
-      "sv": "Falsk eller vilseledande information som avsiktligt skapas och sprids för att bedra."
+      "sv": null
     },
-    "swedish_source": "MSB, Psykologiskt försvar.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "E-commerce",
-      "sv": "E-handel"
+      "sv": null
     },
     "explanation": {
       "en": "The buying and selling of goods and services over the internet. A variety of business models are used in e-commerce (e.g., business-to-consumer, business-to-business, consumer-to-consumer).",
       "sv": null
     },
-    "swedish_source": "Etablerad.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -860,14 +860,14 @@
   {
     "term": {
       "en": "Ethical (usage of digital technologies)",
-      "sv": "Etisk användning"
+      "sv": null
     },
     "explanation": {
       "en": "Usage of digital technologies that aligns with values of respect for human dignity, freedom, democracy, equality, the rule of law and respect for human rights, including the rights of persons belonging to minorities. Ethical usage also entails consideration of the natural environment and of other living beings that are part of the human ecosystem, as well as a sustainable approach enabling the flourishing of future generations to come.",
       "sv": null
     },
     "swedish_source": null,
-    "translation_status": "in_progress",
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -899,53 +899,53 @@
   {
     "term": {
       "en": "Filter bubble",
-      "sv": "Filterbubbla"
+      "sv": null
     },
     "explanation": {
       "en": "An echo chamber (a bounded, enclosed media space that has the potential to both magnify the messages delivered within it and insulate them from rebuttal) primarily produced by ranking algorithms on digital platforms such as search engines and social media which personalises information without any active choice on the part of an individual.",
       "sv": null
     },
-    "swedish_source": "Språkrådet.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "Gamification",
-      "sv": "Spelifiering"
+      "sv": null
     },
     "explanation": {
       "en": "The application of features from gaming in non-game contexts. The goal is to increase user engagement, motivation, competition and participation through the use of game mechanics such as points, badges, leaderboards and rewards.",
       "sv": null
     },
-    "swedish_source": "Språkrådet.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "Generative AI",
-      "sv": "Generativ AI"
+      "sv": null
     },
     "explanation": {
       "en": "A subset of AI that uses specialised machine learning models designed to produce a wide and general variety of outputs, capable of a range of tasks and applications, such as generating text, image or audio.",
       "sv": null
     },
-    "swedish_source": "AI-förordningen svensk version.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
     "term": {
       "en": "High-risk AI system",
-      "sv": "AI-system med hög risk"
+      "sv": null
     },
     "explanation": {
       "en": "One which is likely to negatively affect health, safety or fundamental rights. High risk, in the AI Act, is placed between unacceptable risk, and hence forbidden, and limited risk, which has some requirements of transparency.",
       "sv": null
     },
-    "swedish_source": "AI-förordningen art. 6.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   },
   {
@@ -1627,14 +1627,14 @@
   {
     "term": {
       "en": "Wellbeing (in digital environments)",
-      "sv": "Välbefinnande"
+      "sv": null
     },
     "explanation": {
       "en": "A state of physical, mental and social wellness in relation to an individual's usage of and presence in digital environments. The physical aspect refers to a range of characteristics, such as sleep and rest, balance of physical and sedentary activity, posture and musculoskeletal health and eyesight. The mental aspect also refers to a range of characteristics such as presence or absence of depression, anxiety, low self-esteem or problematic usage of digital technologies affecting mental wellbeing. The social wellbeing aspect refers to a sense of involvement with individuals and communities (e.g. access to and use of social capital; social trust; social connectedness).",
       "sv": null
     },
-    "swedish_source": "Folkhälsomyndigheten, målområde 7.",
-    "translation_status": "completed",
+    "swedish_source": null,
+    "translation_status": "not_started",
     "notes": null
   }
 ]
