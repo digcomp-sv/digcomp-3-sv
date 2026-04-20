@@ -4,6 +4,30 @@ Detta dokument registrerar avvägningar som gjorts mellan möjliga svenska terme
 
 ---
 
+## 2026-04-20 — Kompetensområden (5 områden)
+
+**Alternativ övervägda:** Verbform genomgående; substantivform genomgående; blandad form per område utifrån idiomatisk läsning.
+
+**Valt:** Blandad form. Verbform i område 1, 2, 3 och 5. Substantivform i område 4.
+
+1. Söka, bedöma och hantera information
+2. Kommunicera och samarbeta
+3. Skapa innehåll
+4. Säkerhet, välbefinnande och ansvarsfullt användande
+5. Identifiera och lösa problem
+
+**Motivering:** Engelska källan använder genomgående substantivkonstruktion (huvudsakligen gerundium), men bryter mönstret i fyra av 21 kompetenser där innehållet är tillstånd eller förhållande snarare än handling (2.5, 3.3, 3.4, 4.4). Svenska översättningen följer samma logik på områdesnivå: verbform där området beskriver vad personen gör, substantivform där området beskriver ett tillstånd att upprätthålla. Område 4 ("Safety, wellbeing, and responsible use") innehåller två tillståndsord ("säkerhet", "välbefinnande") där verbkonstruktion skulle vara otymplig, och behåller därför substantivform.
+
+Verbformen i övriga områden harmonierar med hur kompetenserna på nivån under kommer att läsas på svenska (t.ex. "Söka, välja ut och filtrera information" under område 1).
+
+**Termval inom område 4:**
+- "Wellbeing" översätts "välbefinnande" enligt fastställd term i GLOSSARY.md (källa: Folkhälsomyndigheten). Avvikelsen "välmående" är mer vardaglig och inte facktermen.
+- "Use" översätts "användande" (inte "användning"). Användande och användning är synonyma i svensk fackterminologi; valet här är språkligt snarare än principiellt.
+
+**Påverkar:** `data/sv/competence_areas.json` (fältet `name.sv` för samtliga fem områden); `translation_principles.md` punkt 4a.
+
+---
+
 ## 2026-04-19 — "Misinformation" / "Disinformation" → "Missinformation" / "Desinformation"
 
 **Alternativ övervägda:** misinformation, missinformation (för "misinformation"); desinformation (för "disinformation").
