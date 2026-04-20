@@ -4,6 +4,28 @@
 
 Öppen, spårbar översättning av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)** till svenska.
 
+## Vad är DigComp 3.0?
+
+DigComp 3.0 är Europeiska kommissionens ramverk för digital kompetens för medborgare – femte utgåvan, publicerad 2025. Ramverket beskriver vad digital kompetens innebär i praktiken: vilka kunskaper, färdigheter och förhållningssätt som behövs för att delta fullt ut i ett digitaliserat samhälle.
+
+Det är uppbyggt kring fem kompetensområden:
+
+1. **Information search, evaluation and management** – söka, bedöma och hantera information
+2. **Communication and collaboration** – kommunikation och samarbete
+3. **Content creation** – skapa innehåll
+4. **Safety, wellbeing and responsible use** – säkerhet, välbefinnande och ansvarsfullt användande
+5. **Problem identification and solving** – identifiera och lösa problem
+
+Inom dessa områden ryms 21 specifika kompetenser, 362 kompetenspåståenden och 523 learning outcomes fördelade på fyra kompetensnivåer.
+
+Originalpublikationen finns hos JRC:
+
+- [DigComp 3.0 på JRC:s webbplats](https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30_en)
+- [PDF (direktlänk)](https://publications.jrc.ec.europa.eu/repository/handle/JRC144121)
+- [Editerbar version på Zenodo](https://doi.org/10.5281/zenodo.17780383)
+
+Det här repot översätter det verket till svenska.
+
 ## Status
 
 Version: **0.0.1 (extrahering från JRC-källa klar, översättning ej påbörjad)**
