@@ -6,16 +6,16 @@
 
 ## Status
 
-Version: **0.0.1 (extrahering från JRC-källa klar, översättning ej påbörjad)**
+Version: **Under utveckling (första release planerad när samtliga JSON-filer har svenska översättningar).**
 
 | Komponent | Poster | Översatta | Status |
 |---|---|---|---|
-| Kompetensområden | 5 | 0 | ⏳ |
+| Kompetensområden | 5 | 5 | ✅ |
 | Kompetenser | 21 | 0 | ⏳ |
-| Nivåer (4 + 8) | 12 | 0 | ⏳ |
+| Nivåer (4 + 8) | 12 | 12 | ✅ |
 | Kompetenspåståenden (CS) | 362 | 0 | ⏳ |
 | Learning outcomes (LO) | 523 | 0 | ⏳ |
-| Ordlista | 126 | 0 | ⏳ |
+| Ordlista | 126 | 73 termer / 0 förklaringar | 🟡 |
 
 ## Källa
 
