@@ -4,7 +4,7 @@ Detta repo innehåller två typer av material som omfattas av olika licenser.
 
 ## 1. Översättningen och datastrukturen
 
-**Omfattar:** `data/`, `docs/`, `README.md`, `CONTRIBUTING.md`, `GLOSSARY.md`
+**Omfattar:** `data/`, `docs/`, `README.md`, `CONTRIBUTING.md`, `TERMINOLOGI.md`, `CHANGELOG.md`
 
 **Licens:** Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 

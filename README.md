@@ -28,7 +28,7 @@ Originaldata (oförändrad) ligger i `sources/`. Översättningsarbetet sker enb
 
 Syftet är att tillhandahålla en öppen och maskinläsbar svensk version av DigComp 3.0 som kan återanvändas av olika aktörer utan att översättningen behöver göras om för varje sammanhang.
 
-Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar för val som krävt avvägning dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Översättningsprinciperna står i `docs/translation_principles.md`. Större strukturella förändringar i dokumentationen loggas i `docs/CHANGELOG.md`. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
+Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar för val som krävt avvägning dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Översättningsprinciperna står i `docs/translation_principles.md`. Större strukturella förändringar i dokumentationen loggas i `CHANGELOG.md`. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
 
 Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond. Arbetet är strukturerat för att i framtiden överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
 
@@ -62,14 +62,14 @@ digcomp-3-sv/
 ├── docs/
 │   ├── translation_principles.md         # Översättningsprinciper
 │   ├── decision_log.md                   # Terminologibeslut (DL-ID)
-│   ├── errata_tracking.md                # Arbetsflöde för JRC:s errata (via GitHub Issues)
-│   └── CHANGELOG.md                      # Större strukturella förändringar i dokumentationen
+│   └── errata_tracking.md                # Arbetsflöde för JRC:s errata (via GitHub Issues)
 ├── scripts/
 │   ├── README.md                         # Dokumentation av scripten
 │   ├── requirements.txt                  # Python-beroenden
 │   ├── generate_docx.py                  # Remissdokumentgenerering
 │   └── export_to_weblate_csv.py          # Export till Weblate-format
 ├── releases/                             # Genererade remissdokument (taggade)
+├── CHANGELOG.md                          # Större strukturella förändringar i dokumentationen
 ├── CONTRIBUTING.md
 ├── TERMINOLOGI.md                        # Samtliga fastställda svenska val (termer + ramverksstruktur)
 ├── LICENSE                               # Översikt över licenser
