@@ -6,7 +6,9 @@
 
 ## Status
 
-Version: **Under utveckling (första release planerad när samtliga JSON-filer har svenska översättningar).**
+Version: **0.1 (2026-04-21)**
+
+Första release efter projektomstrukturering och första substantiella översättningsarbete. Se `CHANGELOG.md` för full beskrivning.
 
 | Komponent | Poster | Översatta | Status |
 |---|---|---|---|
@@ -88,9 +90,9 @@ Detta repo har **två licenser** för olika typer av material, inspirerat av mod
 
 Om du använder denna översättning i ditt arbete, vänligen citera den:
 
-> digcomp-sv contributors (2026). *DigComp 3.0 på svenska* (Version 0.0.1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.19652094
+> digcomp-sv contributors (2026). *DigComp 3.0 på svenska* (Version 0.1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.19652093
 
-Använd **concept-DOI** [10.5281/zenodo.19652093](https://doi.org/10.5281/zenodo.19652093) om du vill referera till projektet i allmänhet (pekar alltid på senaste version). Använd **version-DOI** om du vill referera till en specifik version.
+Använd **concept-DOI** [10.5281/zenodo.19652093](https://doi.org/10.5281/zenodo.19652093) om du vill referera till projektet i allmänhet (pekar alltid på senaste version). Använd **version-DOI** om du vill referera till en specifik version – varje release på Zenodo får ett eget version-DOI.
 
 För automatgenererad citation i olika format (APA, BibTeX, etc.), använd "Cite this repository"-knappen uppe till höger på GitHub, eller se CITATION.cff.
 

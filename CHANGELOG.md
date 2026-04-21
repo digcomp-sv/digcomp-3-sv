@@ -4,6 +4,27 @@ Denna fil dokumenterar större strukturella och organisatoriska förändringar i
 
 ---
 
+## v0.1 — 2026-04-21 (Zenodo-release)
+
+Första substantiella release efter projektomstrukturering och första översättningsarbetet. Ersätter v0.0.1 (som var en ren extraheringsmilstolpe) som aktuell referensversion.
+
+**Översatt innehåll:**
+- `proficiency_levels.json` — 4-nivå + 8-nivå komplett (namn, beskrivningar, syften)
+- `competence_areas.json` — 5 områden komplett (namn + descriptorer)
+- `glossary.json` — 73 av 126 termer synkade (draft-status, förklaringar återstår)
+
+**Strukturella förändringar** (se posten 2026-04-20 nedan för detaljer):
+- GLOSSARY.md → TERMINOLOGI.md
+- DL-ID-system i decision_log
+- CHANGELOG.md tillagd
+- Rensad glossary.json
+- CITATION.cff: versions- och datumfält tillagda
+
+**Terminologibeslut i denna release** (DL-001 till DL-006):
+- Digital exclusion, Attitude, Proficiency levels, Misinformation/Disinformation, Kompetensområden, samt fastställande av complex/simple/well-defined.
+
+---
+
 ## 2026-04-20 — Omstrukturering av dokumentation
 
 Ombyggnad av projektets redaktionella dokumentation för att minska överlappningar och synkningsarbete mellan filerna.
