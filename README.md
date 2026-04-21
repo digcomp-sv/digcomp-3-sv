@@ -8,7 +8,7 @@
 
 Version: **0.1 (2026-04-21)**
 
-Första grundläggande release efter projektomstrukturering och första översättningsarbetet. Se `CHANGELOG.md` för full beskrivning.
+Första grundläggande release efter projektomstrukturering och inledande översättningsarbete. Se `CHANGELOG.md` för full beskrivning.
 
 | Komponent | Poster | Översatta | Status |
 |---|---|---|---|

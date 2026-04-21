@@ -6,7 +6,7 @@ Denna fil dokumenterar större strukturella och organisatoriska förändringar i
 
 ## v0.1 — 2026-04-21 (Zenodo-release)
 
-Första grundläggande release efter projektomstrukturering och första översättningsarbetet. Ersätter v0.0.1 (som var en ren extraheringsmilstolpe) som aktuell referensversion.
+Första grundläggande release efter projektomstrukturering och inledande översättningsarbete. Ersätter v0.0.1 (som var en ren extraheringsmilstolpe) som aktuell referensversion.
 
 **Översatt innehåll:**
 - `proficiency_levels.json` — 4-nivå + 8-nivå komplett (namn, beskrivningar, syften)
