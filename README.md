@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19652093.svg)](https://doi.org/10.5281/zenodo.19652093)
 
-Målet är en svensk version av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)**. Strukturen är öppen och maskinläsbar. Varje val är spårbart och varje fastställd term har en motivering.
+En öppen och spårbar översättning till svenska av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)**.
 
 Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av 36 000+ ord men projektstrukturen har skapats med stöd av Claude (Anthropic). Samma språkmodell används även för att hålla ihop översättningarna och fånga inkonsekvenser. Återanvänd gärna vad som finns här, men kom ihåg att detta fortfarande är ett pågående arbete, så saker kan ändras. Ingen deadline är satt ännu. Det beror på hur många vi blir som hjälps åt!
 
