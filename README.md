@@ -40,7 +40,7 @@ Originaldata (oförändrad) ligger i `sources/`. Översättningsarbetet sker enb
 
 All data finns som JSON. Varje post har ett stabilt ID (`LO1.1.01`, `CS1.1.01`) som **aldrig översätts**. Endast textfält översätts, och varje översättning registrerar översättare, granskare, tidsstämpel och status.
 
-Datan är maskinläsbar och kan användas direkt i egna system — till exempel självskattningsverktyg, kompetensvalideringssystem eller läroplaner. Den kan också exporteras till andra format via scripten i `scripts/`:
+Datan är maskinläsbar och kan användas direkt i egna system. Den kan också exporteras till andra format via scripten i `scripts/`:
 
 - **Word-dokument (`.docx`)** — för remissversioner eller traditionell läsning. Översatta poster visas som normal text, ej översatta som röd kursiv för tydlig arbetslistmarkering. Kan filtreras per status (draft, reviewed). Se `scripts/README.md` för alternativ.
 - **Weblate-kompatibla CSV-filer** — för den som vill använda Weblate eller liknande översättningsgränssnitt.
