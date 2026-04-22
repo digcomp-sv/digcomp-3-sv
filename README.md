@@ -81,7 +81,7 @@ digcomp-3-sv/
 │   └── export_to_weblate_csv.py          # Export till Weblate-format
 ├── releases/                             # Genererade remissdokument (taggade)
 ├── CHANGELOG.md                          # Större strukturella förändringar i dokumentationen
-├── CONTRIBUTING.md
+├── CONTRIBUTING.md                       # Instruktioner för att delta i översättningsarbetet  
 ├── TERMINOLOGI.md                        # Samtliga fastställda svenska val (termer + ramverksstruktur)
 ├── LICENSE                               # Översikt över licenser
 ├── LICENSE-CC-BY-SA                      # För översättningen och datan
