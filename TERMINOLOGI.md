@@ -115,13 +115,13 @@ DigComp 3.0:s koppling till European Qualifications Framework (EQF) på åtta ni
 
 ## Dimensioner
 
-De tre dimensioner som learning outcomes klassificeras i. Se **DL-002** för motivering av "Attitude".
+De tre dimensioner som learning outcomes klassificeras i. Se **DL-008** för motivering av "Attityder" (ersätter tidigare "Förhållningssätt" enligt DL-002).
 
 | EN | SV | Status |
 |---|---|---|
 | Knowledge | Kunskap | ✅ |
 | Skill | Färdighet | ✅ |
-| Attitude | Förhållningssätt | ✅ |
+| Attitude | Attityder | ✅ |
 
 ## AI-etiketter
 
@@ -177,8 +177,8 @@ Källa: Etablerad.
 I DigComp-kontext avses digitala hjälpmedel. Exempel: skärmläsare, anpassade tangentbord, läsassistenter.
 Källa: Socialstyrelsens begreppssamling, MFD.
 
-**Attitude** → **Förhållningssätt** ✅
-Dimension i learning outcomes. **DL-002**.
+**Attitude** → **Attityder** ✅
+Dimension i learning outcomes. **DL-008** (ersätter DL-002 som valde "Förhållningssätt"). Följer EU:s officiella svenska översättning i rådets rekommendation om nyckelkompetenser och i DigComp 2.2 på svenska.
 
 ## B
 

@@ -6,6 +6,34 @@ Posterna listas i omvänd kronologisk ordning (nyaste först). DL-ID:na tilldela
 
 ---
 
+## DL-008 — 2026-04-22 — REVIDERING: "Attitude" → "Attityder"
+
+**Ersätter:** DL-002 (2026-04-18)
+
+**Tidigare beslut:** Attitude → Förhållningssätt (se DL-002).
+
+**Nytt beslut:** Attitude → Attityder.
+
+**Motivering för revidering:** "Attityder" är den etablerade svenska översättningen av "attitudes" i EU:s kompetensterminologi och bör därmed användas också i DigComp 3.0 på svenska:
+
+- Rådets rekommendation om nyckelkompetenser för livslångt lärande (officiell svensk version via EUR-Lex) definierar kompetens som "en kombination av kunskaper, färdigheter och attityder".
+- EPALE (Europeiska kommissionens plattform för vuxenutbildning) och övriga EU-plattformar använder samma översättning genomgående.
+- DigComp 2.2 på svenska (2022) använder "kunskaper, färdigheter och attityder" som översättning av EU:s "knowledge, skills and attitudes".
+
+DL-002 motiverades språkligt med att "attityd" på svenska kan ha negativ eller vardagligt färgad klang och att svensk utbildningsterminologi (SeQF, gymnasieskolans ämnesplaner) använder "förhållningssätt" för motsvarande dimension. Det är en rimlig observation isolerat sett, men den krockar med kravet på terminologisk konsistens med övriga EU-ramverk. DigComp 3.0 ingår i en terminologistack (EQF, Europass, ESCO, rådets rekommendation om nyckelkompetenser) där "attityder" är den etablerade svenska termen. Att avvika bryter kontinuiteten både bakåt (DigComp 2.2 på svenska) och i sidled (övriga EU-ramverk).
+
+**Påverkar:** Dimensionen i learning outcomes, `TERMINOLOGI.md`, dokumentationstexter. Ingen faktisk ändring i datafilerna eftersom dimensionsfältet (`"dimension": "Attitude"`) bevarar källans form och inte översätts i JSON.
+
+**Källa:** EUR-Lex (rådets rekommendation om nyckelkompetenser för livslångt lärande, svensk version), DigComp 2.2 på svenska (2022), EPALE svenska plattformen.
+
+---
+
+## DL-007 — (ej tilldelad)
+
+Numret reserverades för en DL-post om "In digital environments" som aldrig skrevs. Se CHANGELOG 2026-04-22 för varför posten utelämnades.
+
+---
+
 ## DL-006 — 2026-04-20 — Kompetensområden (5 områden)
 
 **Alternativ övervägda:** Verbform genomgående; substantivform genomgående; blandad form per område utifrån idiomatisk läsning.
@@ -77,7 +105,7 @@ SeQF har inga helt motsvarande nivåer och gav därför ingen bindande vägledni
 
 ---
 
-## DL-002 — 2026-04-18 — "Attitude" → "Förhållningssätt"
+## DL-002 — 2026-04-18 — "Attitude" → "Förhållningssätt" [ERSATT av DL-008]
 
 **Alternativ övervägda:** attityd, hållning, inställning, förhållningssätt.
 

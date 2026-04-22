@@ -56,6 +56,18 @@ README.md får en ny "Bidra till översättningen"-sektion som sammanfattar möj
 
 LO1.2.16 har översatts som levande exempel för CONTRIBUTING (draft-status, `@tereseraymond`). Posten räknas inte som start på LO-översättningen — en fotnot i README:s statustabell markerar detta.
 
+### Terminologirevidering: "Attitude" → "Attityder" (DL-008)
+
+Dimensionen "Attitude" översätts nu till "Attityder" istället för tidigare "Förhållningssätt" (DL-002, 2026-04-18). Revideringen motiveras av att "attityder" är den etablerade svenska översättningen av "attitudes" i EU:s kompetensterminologi — den används i rådets rekommendation om nyckelkompetenser för livslångt lärande (officiell svensk version via EUR-Lex), i DigComp 2.2 på svenska (2022), och i EPALE samt övriga EU-plattformar. 
+
+DL-002:s språkliga analys om att "attityd" kan ha negativ klang på svenska var rimlig isolerat sett, men krockar med kravet på terminologisk konsistens med övriga EU-ramverk (EQF, Europass, ESCO, nyckelkompetensrekommendationen). Beslutet bryter varken bakåtkontinuiteten mot DigComp 2.2 på svenska eller sidledskontinuiteten mot övrig EU-terminologi.
+
+Ingen faktisk ändring i datafilerna — dimensionsfältet bevarar källans form (`"dimension": "Attitude"`) och översätts inte i JSON. Se `docs/decision_log.md` DL-008 och `TERMINOLOGI.md` för detaljer.
+
+### README omarbetad
+
+README har omarbetats med ny, personligare öppning och bättre disposition i dokumentet.
+
 ---
 
 ## v0.1 — 2026-04-21 (Zenodo-release)
