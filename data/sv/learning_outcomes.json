@@ -583,12 +583,12 @@
     "ai_label": "AI-Explicit",
     "text": {
       "en": "Recognise that AI systems may produce output which is inaccurate, even if it may seem plausible.",
-      "sv": null
+      "sv": "Är medveten om att AI-system kan generera utdata som är felaktig, även när den framstår som rimlig."
     },
-    "translation_status": "not_started",
-    "translator": null,
+    "translation_status": "draft",
+    "translator": "@tereseraymond",
     "reviewed_by": null,
-    "last_updated": null,
+    "last_updated": "2026-04-22",
     "notes": null
   },
   {

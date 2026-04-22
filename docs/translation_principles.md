@@ -62,11 +62,7 @@ Engelskan i DigComp 3.0 använder återkommande fraser som inleder learning outc
 
 Dessa är stilregler för återkommande fraskonstruktioner, inte enskilda termer – de hör därför hemma i principerna snarare än i TERMINOLOGI.
 
-## 7. "Digital environments"
-
-Undvik kalkering. "In digital environments" kan oftast översättas med "digitalt" eller "i digitala miljöer" beroende på sats. Välj det som ger mest läsbar svenska.
-
-## 8. Arbetsflöde per post
+## 7. Arbetsflöde per post
 
 För varje post (LO eller CS):
 
@@ -74,9 +70,17 @@ För varje post (LO eller CS):
 2. Slå upp alla ord som finns i `TERMINOLOGI.md` – använd dessa utan variation.
 3. Översätt. Sätt `translation_status: "draft"`, fyll i `translator` och `last_updated`.
 4. Om ett val krävde avvägning – skriv en ny DL-post i `decision_log.md` och referera till post-ID:t.
-5. Vid granskning sätts `reviewed_by` och status ändras till `"reviewed"`.
-6. Status `"final"` sätts först i samband med release-tagg.
+5. Vid granskning sätts `reviewed_by` och status ändras till `"reviewed"`. Detta innebär att posten är godkänd för att pushas till main.
 
-## 9. När osäker
+Release hanteras via Git-taggar (v0.1, v0.2, osv.) – ingen separat status för slutversion behövs i datan.
 
-Hellre markera `translation_status: "needs_review"` och skriva i `notes`-fältet än att gömma osäkerheten i en glatt översättning. Osäkerheter är data – de visar var ramverket möter motstånd i svensk kontext.
+### Konvention för `translator` och `reviewed_by`
+
+- **`@digcomp-sv`** används som standardvärde för översättningar och granskningar som är projektets officiella datamängd. Individuell spårbarhet finns alltid via Git-historik (commit-författare).
+- **Individuella namn** (t.ex. `@anvandarnamn`) används av bidragsgivare som skickar PR med `draft`-översättningar. När PR mergas och status sätts till `reviewed` kan namnet ersättas med `@digcomp-sv` eller behållas efter projektägarens bedömning — särskilt om bidraget är distinkt och förtjänar explicit kreditering.
+
+## 8. När osäker
+
+Hellre lämna posten som `draft` och beskriva osäkerheten i `notes`-fältet än att gömma osäkerheten i en glatt översättning. Osäkerheter är data – de visar var ramverket möter motstånd i svensk kontext.
+
+Poster där `notes` innehåller text är per definition värda att återvända till. För att hitta alla osäkra poster, filtrera på `notes != null`.

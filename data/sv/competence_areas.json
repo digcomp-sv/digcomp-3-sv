@@ -9,7 +9,12 @@
       "en": "To articulate information needs, and to search for, locate and retrieve digital information and content. To judge the relevance of the source and its content in digital environments. To critically evaluate digital sources, content, and processes used to generate them. To store, manage, organise and analyse digital information and data.",
       "sv": "Att formulera informationsbehov, och att söka, lokalisera samt hämta digital information och digitalt innehåll. Att bedöma relevansen hos källan och dess innehåll. Att kritiskt värdera digitala källor, digitalt innehåll och de processer som använts för att skapa dem. Att lagra, hantera, organisera och analysera digital information och data."
     },
-    "competences": []
+    "competences": [],
+    "translation_status": "reviewed",
+    "translator": "@digcomp-sv",
+    "reviewed_by": "@digcomp-sv",
+    "last_updated": "2026-04-21",
+    "notes": null
   },
   {
     "id": 2,
@@ -21,7 +26,12 @@
       "en": "To interact, share, communicate and collaborate in digital environments while being aware of cultural, generational and other diversity and the features and limitations of digital technologies. To participate in society through digital technologies. To assert one's rights and exercise choice in digital environments. To manage one’s digital presence, identity and reputation.",
       "sv": "Att interagera, dela, kommunicera och samarbeta i digitala miljöer, med medvetenhet om mångfald av kulturell, generationsrelaterad eller annan karaktär samt om egenskaper och begränsningar hos digital teknik. Att delta i samhället genom digital teknik. Att ta tillvara på sina rättigheter och sina valmöjligheter i digitala miljöer. Att hantera sin digitala närvaro, sin digitala identitet och sitt rykte."
     },
-    "competences": []
+    "competences": [],
+    "translation_status": "reviewed",
+    "translator": "@digcomp-sv",
+    "reviewed_by": "@digcomp-sv",
+    "last_updated": "2026-04-21",
+    "notes": null
   },
   {
     "id": 3,
@@ -33,7 +43,12 @@
       "en": "To create and edit digital content. To improve and integrate information and content into an existing body of knowledge while understanding how copyright and licences are to be applied, adopting an ethical and responsible approach in the creation, improvement and integration of digital content. To know how to apply computational thinking and programming techniques to give instructions to a computer system.",
       "sv": "Att skapa och redigera digitalt innehåll. Att förbättra och integrera information och innehåll i en befintlig samling kunskaper och förstå hur upphovsrätt och licenser ska tillämpas, samt anta ett etiskt och ansvarsfullt förhållningssätt till skapande, förbättring och integrering av digitalt innehåll. Att veta hur man tillämpar datalogiskt tänkande och programmeringstekniker för att ge instruktioner till ett datorsystem."
     },
-    "competences": []
+    "competences": [],
+    "translation_status": "reviewed",
+    "translator": "@digcomp-sv",
+    "reviewed_by": "@digcomp-sv",
+    "last_updated": "2026-04-21",
+    "notes": null
   },
   {
     "id": 4,
@@ -45,7 +60,12 @@
       "en": "To protect devices, content, personal data and privacy in digital environments. To support physical, mental and social wellbeing of oneself and others, and to be aware of the benefits and risks of digital technologies for wellbeing and social inclusion. To be aware of the environmental impact of digital technologies and their use, to take action to reduce such impact, and to use digital technologies to support sustainability.",
       "sv": "Att skydda enheter, innehåll, personuppgifter och integritet i digitala miljöer. Att stödja fysiskt, psykiskt och socialt välbefinnande för sig själv och andra, samt att vara medveten om fördelar och risker med digital teknik för välbefinnande och social inkludering. Att vara medveten om miljöpåverkan av digital teknik och dess användning, att vidta åtgärder för att minska sådan påverkan, och att använda digital teknik för att främja hållbarhet."
     },
-    "competences": []
+    "competences": [],
+    "translation_status": "reviewed",
+    "translator": "@digcomp-sv",
+    "reviewed_by": "@digcomp-sv",
+    "last_updated": "2026-04-21",
+    "notes": null
   },
   {
     "id": 5,
@@ -57,6 +77,11 @@
       "en": "To identify and assess needs, and to use digital technologies and adapt digital environments to meet these needs. To identify and resolve technical and conceptual problems and problem situations in digital environments. To use digital technologies to make improvements in, or new solutions for, processes and products. To build capabilities to operate autonomously in digital environments. To stay informed about digital technological developments and their implications.",
       "sv": "Att identifiera och bedöma behov, samt att använda digital teknik och anpassa digitala miljöer för att möta dem. Att identifiera och lösa tekniska och begreppsmässiga problem och problemsituationer i digitala miljöer. Att använda digital teknik för att göra förbättringar i, eller nya lösningar för, processer och produkter. Att bygga förmågor att agera självständigt i digitala miljöer. Att hålla sig uppdaterad om digital teknikutveckling och dess konsekvenser."
     },
-    "competences": []
+    "competences": [],
+    "translation_status": "reviewed",
+    "translator": "@digcomp-sv",
+    "reviewed_by": "@digcomp-sv",
+    "last_updated": "2026-04-21",
+    "notes": null
   }
 ]

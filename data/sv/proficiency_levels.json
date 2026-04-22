@@ -12,7 +12,12 @@
       "purpose": {
         "en": "To support personal, learning and/or working goals and participate in society.",
         "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål samt deltagande i samhället."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "name": {
@@ -26,7 +31,12 @@
       "purpose": {
         "en": "To support personal, learning and/or working goals and participate autonomously in society.",
         "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål samt självständigt deltagande i samhället."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "name": {
@@ -40,7 +50,12 @@
       "purpose": {
         "en": "To support personal, learning and/or working goals, participate effectively in society, and manage or support others in achieving their goals.",
         "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål, effektivt deltagande i samhället samt leder eller stödjer andra att uppnå sina mål."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "name": {
@@ -54,7 +69,12 @@
       "purpose": {
         "en": "To support personal, learning and/or working goals, help others to participate effectively in society, lead or support others to achieve complex goals, and/or lead or contribute to improvements in or new solutions for highly complex problems.",
         "sv": "Stödjer personliga, studie- och/eller yrkesrelaterade mål, hjälper andra att delta effektivt i samhället, leder eller stödjer andra att uppnå komplexa mål, och/eller leder eller bidrar till förbättringar eller nya lösningar för mycket komplexa problem."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     }
   ],
   "eight_level": [
@@ -68,7 +88,12 @@
       "description": {
         "en": "At the bottom of the Basic level, individuals require guidance to recognise and implement many or most simple tasks.",
         "sv": "På nedre grundnivå kräver personen vägledning för att känna igen och utföra många eller de flesta enkla uppgifter."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "eqf_level": 2,
@@ -80,7 +105,12 @@
       "description": {
         "en": "At the top of the Basic level, individuals remember and implement simple tasks with little or no guidance.",
         "sv": "På övre grundnivå minns och utför personen enkla uppgifter med lite eller ingen vägledning."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "eqf_level": 3,
@@ -92,7 +122,12 @@
       "description": {
         "en": "At the bottom of the Intermediate level, individuals show some autonomy to identify and implement well-defined tasks and solve well-defined problems.",
         "sv": "På nedre medelnivå visar personen viss självständighet i att identifiera och utföra väldefinierade uppgifter och lösa väldefinierade problem."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "eqf_level": 4,
@@ -104,7 +139,12 @@
       "description": {
         "en": "At the top of the Intermediate level, individuals confidently and autonomously identify and implement well-defined tasks and solve well-defined problems.",
         "sv": "På övre medelnivå identifierar och utför personen självsäkert och självständigt väldefinierade uppgifter och löser väldefinierade problem."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "eqf_level": 5,
@@ -116,7 +156,12 @@
       "description": {
         "en": "At the bottom of the Advanced level, individuals assess and apply solutions to a variety of well-defined tasks and engage with some complex tasks. They identify situations where approaches may need to be adapted, and guide others on well-defined tasks if and as required.",
         "sv": "På nedre avancerad nivå bedömer och tillämpar personen lösningar på en mängd olika väldefinierade uppgifter och tar sig an vissa komplexa uppgifter. Personen identifierar situationer där tillvägagångssätt kan behöva anpassas, samt vägleder andra i väldefinierade uppgifter vid behov."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "eqf_level": 6,
@@ -128,7 +173,12 @@
       "description": {
         "en": "At the top of the Advanced level, individuals work confidently on a variety of complex tasks, respond effectively to challenges in changing contexts, and lead or manage complex projects, guiding others on complex tasks if and as required.",
         "sv": "På övre avancerad nivå arbetar personen självsäkert med en mängd olika komplexa uppgifter, svarar effektivt på utmaningar i föränderliga sammanhang, och leder eller driver komplexa projekt, samt vägleder andra i komplexa uppgifter vid behov."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "eqf_level": 7,
@@ -140,7 +190,12 @@
       "description": {
         "en": "At the bottom of the Highly Advanced level, individuals assess highly complex or specialised problems and may contribute to new solutions or adapt existing ones, leading and guiding others if and as required.",
         "sv": "På nedre mycket avancerad nivå bedömer personen mycket komplexa eller specialiserade problem och kan bidra till nya lösningar eller anpassa befintliga, samt leder och vägleder andra vid behov."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     },
     {
       "eqf_level": 8,
@@ -152,7 +207,12 @@
       "description": {
         "en": "At the top of the Highly Advanced level, individuals lead and guide others on the creation of solutions to highly complex or specialised problems.",
         "sv": "På övre mycket avancerad nivå leder och vägleder personen andra i att skapa lösningar på mycket komplexa eller specialiserade problem."
-      }
+      },
+      "translation_status": "reviewed",
+      "translator": "@digcomp-sv",
+      "reviewed_by": "@digcomp-sv",
+      "last_updated": "2026-04-21",
+      "notes": null
     }
   ]
 }
