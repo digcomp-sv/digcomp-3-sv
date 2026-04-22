@@ -4,6 +4,8 @@
 
 Öppen, spårbar översättning av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)** till svenska.
 
+Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av 36 000+ ord men projektstrukturen har skapats med hjälp av Claude (Anthropic). Samma språkmodell bistår även för att hålla ihop översättningarna och fånga inkonsekvenser. Återanvänd gärna vad som finns här, men kom ihåg att detta fortfarande är ett pågående arbete, så saker kan ändras. Ingen deadline är satt ännu. Det beror på hur många vi blir som hjälps åt!
+
 ## Status
 
 Version: **0.1 (2026-04-21)**
@@ -30,11 +32,13 @@ Originaldata (oförändrad) ligger i `sources/`. Översättningsarbetet sker enb
 
 ## Om projektet
 
-Syftet är att tillhandahålla en öppen och maskinläsbar svensk version av DigComp 3.0 som kan återanvändas av olika aktörer.
+Målet är en genomtänkt svensk version av DigComp 3.0 som olika aktörer kan använda. Strukturen är öppen och maskinläsbar. Varje val är spårbart och varje fastställd term har en motivering.
 
-Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar för val som krävt avvägning dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Översättningsprinciperna står i `docs/translation_principles.md`. Större strukturella förändringar i dokumentationen loggas i `CHANGELOG.md`. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
+DigComp 3.0 är utgivet av Europeiska kommissionens Joint Research Centre (JRC) under Creative Commons Attribution 4.0 International (CC BY 4.0), vilket tillåter översättning. Detta är alltså *inte* EU:s officiella svenska version av DigComp 3.0 men en tillåten översättning. 
 
-Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond. Arbetet är strukturerat för att i framtiden kunna överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
+Innehållet i ramverket har inte ändrats, utökats eller förkortats. Översättningsarbetet gäller uteslutande formuleringen på svenska. Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar för val som krävt avvägning dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Översättningsprinciperna står i `docs/translation_principles.md`. Större strukturella förändringar i dokumentationen loggas i `CHANGELOG.md`. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
+
+Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond som till vardags arbetar som projektledare för Digidel inom föreningen Sambruk. Arbetet här är strukturerat för att i framtiden kunna överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
 
 Licensen (CC BY-SA 4.0) säkerställer att arbetet förblir öppet. Översättningen får användas fritt – även kommersiellt – men ingen enskild aktör kan privatisera eller stänga in själva översättningstexten.
 
@@ -81,18 +85,16 @@ digcomp-3-sv/
 └── LICENSE-scripts                       # Apache 2.0 för scripts/
 ```
 
-## Bidra till översättningen
+## Bidra gärna i översättningsarbetet!
 
-Bidrag välkomnas. Översättningsprojektet drivs för närvarande av Terese Raymond men förhoppningen på sikt är ett community där alla med intresse hjälps åt med översättningar och resonerar öppet.
-
-Särskilt välkommet är bidrag från personer med erfarenhet av yrkes- eller kompetensvalidering samt ämneskompetens inom till exempel informationssäkerhet, etisk AI eller EU-terminologi.
+Översättningsprojektet drivs för närvarande av Terese Raymond men förhoppningen på sikt är ett community där alla med intresse hjälps åt med översättningar och resonerar öppet.
 
 Det finns två sätt att bidra:
 
 - **Via issues** — Ingen teknisk vana krävs. Här går det bra att posta förslag på översättningar, diskutera redan gjorda översättningar eller ställa andra typer av frågor om DigComp och projektet.
 - **Via pull requests** — För dig som är van vid Git.
 
-Ambitionen är att svara på alla frågor och bidrag inom en vecka. Se [`CONTRIBUTING.md`](CONTRIBUTING.md) för utförlig vägledning.
+Ambitionen är att svara på frågor och bidrag inom en vecka. Se [`CONTRIBUTING.md`](CONTRIBUTING.md) för utförlig vägledning.
 
 ## Licenser
 
