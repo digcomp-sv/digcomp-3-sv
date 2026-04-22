@@ -6,9 +6,9 @@ En öppen och spårbar översättning till svenska av Europeiska kommissionens r
 
 Återanvänd gärna vad som finns här, men kom ihåg att detta fortfarande är ett pågående arbete, så saker kan ändras. Ingen deadline är satt ännu. Det beror på hur många vi blir som hjälps åt!
 
-Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av översättningar från engelska till svenska men projektstrukturen har skapats med stöd av Claude (Anthropic). Samma språkmodell används även för att hålla ihop översättningarna och fånga inkonsekvenser. 
+Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av översättningar från engelska till svenska men projektstrukturen har skapats med stöd av Claude (Anthropic). Samma språkmodell används även för att hålla ihop översättningarna och fånga upp språkliga inkonsekvenser. 
 
-DigComp 3.0 är utgivet av Europeiska kommissionens Joint Research Centre (JRC) under Creative Commons Attribution 4.0 International (CC BY 4.0), vilket tillåter översättning. Detta är alltså *inte* EU:s officiella svenska version av DigComp 3.0.
+DigComp 3.0 är utgivet av Europeiska kommissionens Joint Research Centre (JRC) under Creative Commons Attribution 4.0 International (CC BY 4.0). JRC tillåter översättningar men granskar dem inte. Arbetet här är alltså *inte* EU:s officiella svenska version av DigComp 3.0 – en sådan finns inte och är inte heller planerad från EU:s sida.
 
 Innehållet i ramverket har inte ändrats, utökats eller förkortats. Översättningsarbetet gäller uteslutande formuleringen på svenska. Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar dokumenteras i `docs/decision_log.md`. Principer står i `docs/translation_principles.md`. Strukturella förändringar loggas i `CHANGELOG.md`. Se `CONTRIBUTING.md` för hur du bidrar.
 
@@ -44,14 +44,10 @@ All data finns som JSON. Varje post har ett stabilt ID (`LO1.1.01`, `CS1.1.01`) 
 
 Datan är maskinläsbar och kan användas direkt i egna system. Den kan också exporteras till andra format via scripten i `scripts/`:
 
-- **Word-dokument (`.docx`)** — för remissversioner eller traditionell läsning. Översatta poster visas som normal text, ej översatta som röd kursiv för tydlig arbetslistmarkering. Kan filtreras per status (draft, reviewed). Se `scripts/README.md` för alternativ.
-- **Weblate-kompatibla CSV-filer** — för den som vill använda Weblate eller liknande översättningsgränssnitt.
+- **Word-dokument (`.docx`)** – för remissversioner eller traditionell läsning. Översatta poster visas som normal text, ej översatta som röd kursiv för tydlig arbetslistmarkering. Kan filtreras per status (draft, reviewed). Se `scripts/README.md` för alternativ.
+- **Weblate-kompatibla CSV-filer** – för den som vill använda Weblate eller liknande översättningsgränssnitt.
 
-Scripten läser alltid från `data/sv/*.json` och skriver aldrig tillbaka — datan är source of truth och förblir mänskligt hanterad.
-
-### Versionering
-
-Detta repo hanterar svensk översättning av DigComp 3.x-familjen. Versioner av själva översättningen hanteras via Git-taggar (v0.1, v1.0, osv.). Vid en eventuell framtida DigComp 4.0 med strukturella förändringar skapas ett nytt repo.
+Scripten läser alltid från `data/sv/*.json` och skriver aldrig tillbaka – datan är source of truth och förblir mänskligt hanterad.
 
 ```
 digcomp-3-sv/
@@ -94,17 +90,21 @@ digcomp-3-sv/
 
 Det finns två sätt att bidra:
 
-- **Via issues** — Ingen teknisk vana krävs. Här går det bra att posta förslag på översättningar, diskutera redan gjorda översättningar eller ställa andra typer av frågor om DigComp och projektet.
-- **Via pull requests** — För dig som är van vid Git.
+- **Via issues** – Ingen teknisk vana krävs. Här går det bra att posta förslag på översättningar, diskutera redan gjorda översättningar eller ställa andra typer av frågor om DigComp och projektet.
+- **Via pull requests** – För dig som är van vid Git.
 
 Ambitionen är att svara på frågor och bidrag inom en vecka. Se [`CONTRIBUTING.md`](CONTRIBUTING.md) för utförlig vägledning.
+
+### Versionering
+
+Detta repo hanterar svensk översättning av DigComp 3.x-familjen. Versioner av själva översättningen hanteras via Git-taggar (v0.1, v1.0, osv.). Vid en eventuell framtida DigComp 4.0 med strukturella förändringar behövs ett nytt repo.
 
 ## Licenser
 
 Detta repo har **två licenser** för olika typer av material, inspirerat av modellen i [PiAir/digcomp3-l10n](https://github.com/PiAir/digcomp3-l10n):
 
-* **Översättningen, datan och dokumentationen** (allt utanför `scripts/`) — [CC BY-SA 4.0](LICENSE-CC-BY-SA) (Erkännande-DelaLika). Översättningen får användas fritt, även kommersiellt, men ingen enskild aktör kan privatisera själva översättningstexten. Licensen är strängare än JRC-källans CC BY 4.0 — den säkerställer att arbetet förblir öppet också när det återanvänds och bearbetas.
-* **Scripts och tekniska verktyg** (`scripts/`) — [Apache License 2.0](LICENSE-scripts). Scripten är fristående kod och licensieras separat för att maximera återanvändbarhet.
+* **Översättningen, datan och dokumentationen** (allt utanför `scripts/`) – [CC BY-SA 4.0](LICENSE-CC-BY-SA) (Erkännande-DelaLika). Översättningen får användas fritt, även kommersiellt, men ingen enskild aktör kan privatisera själva översättningstexten. Licensen är strängare än JRC-källans CC BY 4.0 — den säkerställer att arbetet förblir öppet också när det återanvänds och bearbetas.
+* **Scripts och tekniska verktyg** (`scripts/`) – [Apache License 2.0](LICENSE-scripts). Scripten är fristående kod och licensieras separat för att maximera återanvändbarhet.
 
 ## Citering
 
@@ -118,8 +118,8 @@ För automatgenererad citation i olika format (APA, BibTeX, etc.), använd "Cite
 
 ## Relaterade översättningsprojekt
 
-* **Nederländska:** [PiAir/digcomp3-l10n](https://github.com/PiAir/digcomp3-l10n) — använder Weblate, förväntas klar mars 2026. Förebild för detta projekts struktur.
-* **DigComp 2.2 på svenska** (2022) — översatt av arbetsgrupp från SVERD, Dataföreningen m.fl. ([PDF](https://dfs.se/digcomp_ramverket_for_digital_kompetens_for_medborgare/))
+* **Nederländska:** [PiAir/digcomp3-l10n](https://github.com/PiAir/digcomp3-l10n) – använder Weblate, förväntas klar mars 2026. Förebild för detta projekts struktur.
+* **DigComp 2.2 på svenska** (2022) – översatt av arbetsgrupp från SVERD, Dataföreningen m.fl. ([PDF](https://dfs.se/digcomp_ramverket_for_digital_kompetens_for_medborgare/))
 
 ## Officiellt källmaterial
 
