@@ -36,21 +36,16 @@ Första release efter projektomstrukturering och första substantiella översät
 
 Originaldata (oförändrad) ligger i `sources/`. Översättningsarbetet sker enbart i `data/sv/`.
 
-## Om projektet
-
-Målet är en genomtänkt svensk version av DigComp 3.0 som olika aktörer kan använda. Strukturen är öppen och maskinläsbar. Varje val är spårbart och varje fastställd term har en motivering.
-
-DigComp 3.0 är utgivet av Europeiska kommissionens Joint Research Centre (JRC) under Creative Commons Attribution 4.0 International (CC BY 4.0), vilket tillåter översättning. Detta är alltså *inte* EU:s officiella svenska version av DigComp 3.0 men en tillåten översättning. 
-
-Innehållet i ramverket har inte ändrats, utökats eller förkortats. Översättningsarbetet gäller uteslutande formuleringen på svenska. Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar för val som krävt avvägning dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Översättningsprinciperna står i `docs/translation_principles.md`. Större strukturella förändringar i dokumentationen loggas i `CHANGELOG.md`. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
-
-Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond som till vardags arbetar som projektledare för Digidel inom föreningen Sambruk. Arbetet här är strukturerat för att i framtiden kunna överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
-
-Licensen (CC BY-SA 4.0) säkerställer att arbetet förblir öppet. Översättningen får användas fritt – även kommersiellt – men ingen enskild aktör kan privatisera eller stänga in själva översättningstexten.
-
 ## Hur strukturen fungerar
 
 All data finns som JSON. Varje post har ett stabilt ID (`LO1.1.01`, `CS1.1.01`) som **aldrig översätts**. Endast textfält översätts, och varje översättning registrerar översättare, granskare, tidsstämpel och status.
+
+Datan är maskinläsbar och kan användas direkt i egna system — till exempel självskattningsverktyg, kompetensvalideringssystem eller läroplaner. Den kan också exporteras till andra format via scripten i `scripts/`:
+
+- **Word-dokument (`.docx`)** — för remissversioner eller traditionell läsning. Översatta poster visas som normal text, ej översatta som röd kursiv för tydlig arbetslistmarkering. Kan filtreras per status (draft, reviewed). Se `scripts/README.md` för alternativ.
+- **Weblate-kompatibla CSV-filer** — för den som vill använda Weblate eller liknande översättningsgränssnitt.
+
+Scripten läser alltid från `data/sv/*.json` och skriver aldrig tillbaka — datan är source of truth och förblir mänskligt hanterad.
 
 ### Versionering
 
