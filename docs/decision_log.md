@@ -17,8 +17,8 @@ Posterna listas i omvänd kronologisk ordning (nyaste först). DL-ID:na tilldela
 **Motivering för revidering:** "Attityder" är den etablerade svenska översättningen av "attitudes" i EU:s kompetensterminologi och bör därmed användas också i DigComp 3.0 på svenska:
 
 - Rådets rekommendation om nyckelkompetenser för livslångt lärande (officiell svensk version via EUR-Lex) definierar kompetens som "en kombination av kunskaper, färdigheter och attityder".
-- EPALE (Europeiska kommissionens plattform för vuxenutbildning) och övriga EU-plattformar använder samma översättning genomgående.
 - DigComp 2.2 på svenska (2022) använder "kunskaper, färdigheter och attityder" som översättning av EU:s "knowledge, skills and attitudes".
+- EPALE (Europeiska kommissionens plattform för vuxenutbildning) och övriga EU-plattformar använder samma översättning genomgående.
 
 DL-002 motiverades språkligt med att "attityd" på svenska kan ha negativ eller vardagligt färgad klang och att svensk utbildningsterminologi (SeQF, gymnasieskolans ämnesplaner) använder "förhållningssätt" för motsvarande dimension. Det är en rimlig observation isolerat sett, men den krockar med kravet på terminologisk konsistens med övriga EU-ramverk. DigComp 3.0 ingår i en terminologistack (EQF, Europass, ESCO, rådets rekommendation om nyckelkompetenser) där "attityder" är den etablerade svenska termen. Att avvika bryter kontinuiteten både bakåt (DigComp 2.2 på svenska) och i sidled (övriga EU-ramverk).
 

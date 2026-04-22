@@ -4,9 +4,9 @@ Denna fil dokumenterar större strukturella och organisatoriska förändringar i
 
 ---
 
-## 2026-04-22 — Förenklat statusflöde, metadata-konvention och öppning för bidrag
+## v0.1.1 – 2026-04-22 (patch-release)
 
-Tre sammanhängande förändringar som rör hur projektet arbetar efter v0.1-releasen.
+Patch-release som samlar strukturella förbättringar, dokumentationsrevidering och en terminologirevidering efter v0.1. Ingen ny översättningsprogress i ramverksdatan utöver ett unikt översatt "demo-exempel" LO1.2.16.
 
 ### Förenklat translation_status-flöde
 
@@ -19,7 +19,7 @@ Statusflödet för översättningsposter förenklas från fem nivåer till tre.
 - `needs_review` tas bort. Osäkerhet om en översättning markeras istället i `notes`-fältet med beskrivning av vad som är osäkert. Poster med `notes != null` är per definition värda att återvända till.
 - `final` tas bort. Statusen `reviewed` betyder "godkänt för push till main". Slutversion av en release framgår av Git-taggar (v0.1, v0.2, osv.) snarare än ett separat statusfält i datan.
 
-**Bakgrund.** Det tidigare fem-nivåsflödet var lånat från översättningsprojekt med tydlig rollfördelning mellan översättare, granskare och releaseansvariga. I ett projekt drivet av en ensam projektägare blev skillnaderna mellan `draft`, `reviewed` och `final` artificiella — alla tre sattes ofta av samma person samma dag. Förenklingen speglar det faktiska arbetsflödet bättre och minskar risken för inkonsekvens mellan statusfältet och andra informationskällor (Git-historia, release-taggar).
+**Bakgrund.** Det tidigare fem-nivåsflödet var lånat från översättningsprojekt med tydlig rollfördelning mellan översättare, granskare och releaseansvariga. I ett projekt drivet av en ensam projektägare blev skillnaderna mellan `draft`, `reviewed` och `final` artificiella – alla tre sattes ofta av samma person samma dag. Förenklingen speglar det faktiska arbetsflödet bättre och minskar risken för inkonsekvens mellan statusfältet och andra informationskällor (Git-historia, release-taggar).
 
 ### Konsekvent metadatastruktur och `@digcomp-sv`-konvention
 
@@ -27,7 +27,7 @@ JSON-filer med översättningar får enhetliga metadatafält: `translation_statu
 
 - `competence_areas.json`: fem nya fält tillagda, alla 5 områden markerade som `reviewed`
 - `proficiency_levels.json`: fem nya fält tillagda, alla 12 nivåer markerade som `reviewed`
-- `competences.json`: `translator`, `reviewed_by`, `notes` tillagda (alla null — kompetenserna är inte översatta än)
+- `competences.json`: `translator`, `reviewed_by`, `notes` tillagda (alla null – kompetenserna är inte översatta än)
 - `learning_outcomes.json`, `competence_statements.json`, `glossary.json`: hade redan fälten, inga strukturella ändringar
 
 **`@digcomp-sv`-konvention.** Värdet `@digcomp-sv` införs som standardattribut för `translator` och `reviewed_by` när översättningen är del av projektets officiella datamängd. Individuell spårbarhet finns alltid via Git-historik (commit-författare). Individuella bidragsgivare som skickar PR med drafts använder sitt eget användarnamn; när PR mergas och status sätts till `reviewed` kan värdet ersättas med `@digcomp-sv` eller behållas efter projektägarens bedömning.
@@ -54,15 +54,15 @@ README.md får en ny "Bidra till översättningen"-sektion som sammanfattar möj
 
 ### Första learning outcome översatt
 
-LO1.2.16 har översatts som levande exempel för CONTRIBUTING (draft-status, `@tereseraymond`). Posten räknas inte som start på LO-översättningen — en fotnot i README:s statustabell markerar detta.
+LO1.2.16 har översatts som levande exempel för CONTRIBUTING (draft-status, `@tereseraymond`). Posten räknas inte som start på LO-översättningen – en fotnot i README:s statustabell markerar detta.
 
 ### Terminologirevidering: "Attitude" → "Attityder" (DL-008)
 
-Dimensionen "Attitude" översätts nu till "Attityder" istället för tidigare "Förhållningssätt" (DL-002, 2026-04-18). Revideringen motiveras av att "attityder" är den etablerade svenska översättningen av "attitudes" i EU:s kompetensterminologi — den används i rådets rekommendation om nyckelkompetenser för livslångt lärande (officiell svensk version via EUR-Lex), i DigComp 2.2 på svenska (2022), och i EPALE samt övriga EU-plattformar. 
+Dimensionen "Attitude" översätts nu till "Attityder" istället för tidigare "Förhållningssätt" (DL-002, 2026-04-18). Revideringen motiveras av att "attityder" är den etablerade svenska översättningen av "attitudes" i EU:s kompetensterminologi – den används i rådets rekommendation om nyckelkompetenser för livslångt lärande (officiell svensk version via EUR-Lex), i DigComp 2.2 på svenska (2022) och i EPALE samt övriga EU-plattformar. 
 
 DL-002:s språkliga analys om att "attityd" kan ha negativ klang på svenska var rimlig isolerat sett, men krockar med kravet på terminologisk konsistens med övriga EU-ramverk (EQF, Europass, ESCO, nyckelkompetensrekommendationen). Beslutet bryter varken bakåtkontinuiteten mot DigComp 2.2 på svenska eller sidledskontinuiteten mot övrig EU-terminologi.
 
-Ingen faktisk ändring i datafilerna — dimensionsfältet bevarar källans form (`"dimension": "Attitude"`) och översätts inte i JSON. Se `docs/decision_log.md` DL-008 och `TERMINOLOGI.md` för detaljer.
+Ingen faktisk ändring i datafilerna – dimensionsfältet bevarar källans form (`"dimension": "Attitude"`) och översätts inte i JSON. Se `docs/decision_log.md` DL-008 och `TERMINOLOGI.md` för detaljer.
 
 ### README omarbetad
 
@@ -70,14 +70,14 @@ README har omarbetats med ny, personligare öppning och bättre disposition i do
 
 ---
 
-## v0.1 — 2026-04-21 (Zenodo-release)
+## v0.1 – 2026-04-21 (Zenodo-release)
 
 Första grundläggande release efter projektomstrukturering och inledande översättningsarbete. Ersätter v0.0.1 (som var en ren extraheringsmilstolpe) som aktuell referensversion.
 
 **Översatt innehåll:**
-- `proficiency_levels.json` — 4-nivå + 8-nivå komplett (namn, beskrivningar, syften)
-- `competence_areas.json` — 5 områden komplett (namn + descriptorer)
-- `glossary.json` — 73 av 126 termer synkade (draft-status, förklaringar återstår)
+- `proficiency_levels.json` – 4-nivå + 8-nivå komplett (namn, beskrivningar, syften)
+- `competence_areas.json` – 5 områden komplett (namn + descriptorer)
+- `glossary.json` – 73 av 126 termer synkade (draft-status, förklaringar återstår)
 
 **Strukturella förändringar** (se posten 2026-04-20 nedan för detaljer):
 - GLOSSARY.md → TERMINOLOGI.md
@@ -91,7 +91,7 @@ Första grundläggande release efter projektomstrukturering och inledande övers
 
 ---
 
-## 2026-04-20 — Omstrukturering av dokumentation
+## 2026-04-20 – Omstrukturering av dokumentation
 
 Ombyggnad av projektets redaktionella dokumentation för att minska överlappningar och synkningsarbete mellan filerna.
 
