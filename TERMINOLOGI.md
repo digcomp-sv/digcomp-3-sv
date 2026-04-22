@@ -115,7 +115,7 @@ DigComp 3.0:s koppling till European Qualifications Framework (EQF) på åtta ni
 
 ## Dimensioner
 
-De tre dimensioner som learning outcomes klassificeras i. Se **DL-008** för motivering av "Attityder" (ersätter tidigare "Förhållningssätt" enligt DL-002).
+De tre dimensioner som learning outcomes klassificeras i. Se **DL-008** för motivering av "Attityder".
 
 | EN | SV | Status |
 |---|---|---|
