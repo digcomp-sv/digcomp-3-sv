@@ -2,9 +2,15 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19652093.svg)](https://doi.org/10.5281/zenodo.19652093)
 
-Öppen, spårbar översättning av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)** till svenska.
+Målet är en svensk version av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)**. Strukturen är öppen och maskinläsbar. Varje val är spårbart och varje fastställd term har en motivering.
 
-Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av 36 000+ ord men projektstrukturen har skapats med hjälp av Claude (Anthropic). Samma språkmodell bistår även för att hålla ihop översättningarna och fånga inkonsekvenser. Återanvänd gärna vad som finns här, men kom ihåg att detta fortfarande är ett pågående arbete, så saker kan ändras. Ingen deadline är satt ännu. Det beror på hur många vi blir som hjälps åt!
+Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av 36 000+ ord men projektstrukturen har skapats med stöd av Claude (Anthropic). Samma språkmodell används även för att hålla ihop översättningarna och fånga inkonsekvenser. Återanvänd gärna vad som finns här, men kom ihåg att detta fortfarande är ett pågående arbete, så saker kan ändras. Ingen deadline är satt ännu. Det beror på hur många vi blir som hjälps åt!
+
+DigComp 3.0 är utgivet av Europeiska kommissionens Joint Research Centre (JRC) under Creative Commons Attribution 4.0 International (CC BY 4.0), vilket tillåter översättning. Detta är alltså *inte* EU:s officiella svenska version av DigComp 3.0. Översättningen själv licensieras under CC BY-SA 4.0 (Erkännande-DelaLika) som säkerställer att arbetet förblir öppet — den får användas fritt, även kommersiellt, men ingen enskild aktör kan privatisera själva översättningstexten.
+
+Innehållet i ramverket har inte ändrats, utökats eller förkortats. Översättningsarbetet gäller uteslutande formuleringen på svenska. Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar dokumenteras i `docs/decision_log.md`. Principer står i `docs/translation_principles.md`. Strukturella förändringar loggas i `CHANGELOG.md`. Se `CONTRIBUTING.md` för hur du bidrar.
+
+Initiativet drivs av Terese Raymond som till vardags arbetar som projektledare för Digidel inom föreningen Sambruk. Arbetet här är strukturerat för att i framtiden kunna överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
 
 ## Status
 
@@ -21,7 +27,7 @@ Första release efter projektomstrukturering och första substantiella översät
 | Learning outcomes (LO) | 523 | 0 | ⏳ |
 | Ordlista | 126 | 73 termer / 0 förklaringar | 🟡 |
 
-*LO1.2.16 är översatt som dokumentationsexempel — räknas inte som start på LO-översättningen.*
+*NOT: LO1.2.16 är översatt som dokumentationsexempel och räknas inte som start på LO-översättningen.*
 
 ## Källa
 
