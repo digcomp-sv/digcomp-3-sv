@@ -89,7 +89,7 @@ Särskilt välkommet är bidrag från personer med erfarenhet av yrkes- eller ko
 
 Det finns två sätt att bidra:
 
-- **Via issues** — Ingen teknisk vana krävs. Här går det bra att posta förslag på översättningar, diskutera en redan gjorda översättningar eller ställa andra typer av frågor om DigComp och projektet.
+- **Via issues** — Ingen teknisk vana krävs. Här går det bra att posta förslag på översättningar, diskutera redan gjorda översättningar eller ställa andra typer av frågor om DigComp och projektet.
 - **Via pull requests** — För dig som är van vid Git.
 
 Ambitionen är att svara på alla frågor och bidrag inom en vecka. Se [`CONTRIBUTING.md`](CONTRIBUTING.md) för utförlig vägledning.
