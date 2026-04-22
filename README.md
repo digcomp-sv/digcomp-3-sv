@@ -85,7 +85,7 @@ digcomp-3-sv/
 └── LICENSE-scripts                       # Apache 2.0 för scripts/
 ```
 
-## Bidra gärna i översättningsarbetet!
+## Bidra gärna i översättningsarbetet
 
 Översättningsprojektet drivs för närvarande av Terese Raymond men förhoppningen på sikt är ett community där alla med intresse hjälps åt med översättningar och resonerar öppet.
 
@@ -109,16 +109,16 @@ Om du använder denna översättning i ditt arbete, vänligen citera den:
 
 > digcomp-sv contributors (2026). *DigComp 3.0 på svenska* (Version 0.1) [Dataset]. Zenodo. https://doi.org/10.5281/zenodo.19652093
 
-Använd **concept-DOI** [10.5281/zenodo.19652093](https://doi.org/10.5281/zenodo.19652093) om du vill referera till projektet i allmänhet (pekar alltid på senaste version). Använd **version-DOI** om du vill referera till en specifik version – varje release på Zenodo får ett eget version-DOI.
+Använd **concept-DOI** [10.5281/zenodo.19652093](https://doi.org/10.5281/zenodo.19652093) om du vill referera till projektet i allmänhet (pekar alltid på senaste version).
 
-För automatgenererad citation i olika format (APA, BibTeX, etc.), använd "Cite this repository"-knappen uppe till höger på GitHub, eller se CITATION.cff.
+För automatgenererad citation i olika format (APA, BibTeX, etc.), använd "Cite this repository"-knappen uppe till höger på GitHub eller se CITATION.cff.
 
 ## Relaterade översättningsprojekt
 
 * **Nederländska:** [PiAir/digcomp3-l10n](https://github.com/PiAir/digcomp3-l10n) — använder Weblate, förväntas klar mars 2026. Förebild för detta projekts struktur.
 * **DigComp 2.2 på svenska** (2022) — översatt av arbetsgrupp från SVERD, Dataföreningen m.fl. ([PDF](https://dfs.se/digcomp_ramverket_for_digital_kompetens_for_medborgare/))
 
-## Officiell källmaterial
+## Officiellt källmaterial
 
 * **Publikation (PDF):** <https://publications.jrc.ec.europa.eu/repository/handle/JRC144121>
 * **Redigerbar version (InDesign + Word):** <https://doi.org/10.5281/zenodo.17780383>
