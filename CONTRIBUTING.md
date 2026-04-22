@@ -113,4 +113,4 @@ DigComp är skrivet för en EU-gemensam läsekrets. Vissa konstruktioner har ing
 
 ## Om projektets arbetssätt just nu
 
-Under projektets tidiga fas (version 0.x) arbetar projektägaren direkt på `main` för underhåll och strukturella ändringar. Bidragsgivare utifrån arbetar via branch och PR som beskrivet ovan. När projektet mognar och fler bidragsgivare involveras kommer även ägaren att gå över till branch- och PR-flöde.
+Under projektets tidiga fas (version 0.x) arbetar projektägaren direkt på `main` för underhåll och strukturella ändringar. Bidragsgivare utifrån arbetar via branch och PR som beskrivet ovan. När projektet mognar och fler bidragsgivare involveras kommer även ägaren att gå över till branch- och PR-flöde. Se README-sektionen Versioner för hur versionsnummer tilldelas.

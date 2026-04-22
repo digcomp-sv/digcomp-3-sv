@@ -95,9 +95,22 @@ Det finns två sätt att bidra:
 
 Ambitionen är att svara på frågor och bidrag inom en vecka. Se [`CONTRIBUTING.md`](CONTRIBUTING.md) för utförlig vägledning.
 
-### Versionering
+## Versioner
 
-Detta repo hanterar svensk översättning av DigComp 3.x-familjen. Versioner av själva översättningen hanteras via Git-taggar (v0.1, v1.0, osv.). Vid en eventuell framtida DigComp 4.0 med strukturella förändringar behövs ett nytt repo.
+Versionerna följer [semantic versioning](https://semver.org/lang/sv/) anpassat för ett översättningsprojekt:
+
+- **v0.x** – pågående översättning. Strukturella förändringar kan fortfarande ske.
+- **v1.0** – första helt översatta versionen. Detta är målet.
+- **v1.x och framåt** – rättningar, förbättringar och löpande synkning mot JRC:s errata.
+
+Inom 0.x-serien gäller:
+
+- **v0.1, v0.2, v0.3 ...** – när nya översatta områden läggs till (till exempel alla kompetenser eller en hel ordlista)
+- **v0.1.1, v0.1.2 ...** – rättningar, terminologirevideringar eller strukturella förbättringar utan ny översättningsprogress
+
+Versioner skapas som Git-taggar och publiceras på Zenodo. Varje release får ett eget version-DOI. Concept-DOI pekar alltid på senaste version.
+
+Detta repo hanterar svensk översättning av DigComp 3.x-familjen. Vid en eventuell framtida DigComp 4.0 med strukturella förändringar behövs ett nytt repo.
 
 ## Licenser
 

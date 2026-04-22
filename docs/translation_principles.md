@@ -72,7 +72,7 @@ För varje post (LO eller CS):
 4. Om ett val krävde avvägning – skriv en ny DL-post i `decision_log.md` och referera till post-ID:t.
 5. Vid granskning sätts `reviewed_by` och status ändras till `"reviewed"`. Detta innebär att posten är godkänd för att pushas till main.
 
-Release hanteras via Git-taggar (v0.1, v0.2, osv.) – ingen separat status för slutversion behövs i datan.
+Release hanteras via Git-taggar – ingen separat status för slutversion behövs i datan. Se README-sektionen **Versioner** för versionsschemat.
 
 ### Konvention för `translator` och `reviewed_by`
 
