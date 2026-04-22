@@ -4,6 +4,60 @@ Denna fil dokumenterar större strukturella och organisatoriska förändringar i
 
 ---
 
+## 2026-04-22 — Förenklat statusflöde, metadata-konvention och öppning för bidrag
+
+Tre sammanhängande förändringar som rör hur projektet arbetar efter v0.1-releasen.
+
+### Förenklat translation_status-flöde
+
+Statusflödet för översättningsposter förenklas från fem nivåer till tre.
+
+**Tidigare flöde:** `not_started → draft → needs_review → reviewed → final`
+
+**Nytt flöde:** `not_started → draft → reviewed`
+
+- `needs_review` tas bort. Osäkerhet om en översättning markeras istället i `notes`-fältet med beskrivning av vad som är osäkert. Poster med `notes != null` är per definition värda att återvända till.
+- `final` tas bort. Statusen `reviewed` betyder "godkänt för push till main". Slutversion av en release framgår av Git-taggar (v0.1, v0.2, osv.) snarare än ett separat statusfält i datan.
+
+**Bakgrund.** Det tidigare fem-nivåsflödet var lånat från översättningsprojekt med tydlig rollfördelning mellan översättare, granskare och releaseansvariga. I ett projekt drivet av en ensam projektägare blev skillnaderna mellan `draft`, `reviewed` och `final` artificiella — alla tre sattes ofta av samma person samma dag. Förenklingen speglar det faktiska arbetsflödet bättre och minskar risken för inkonsekvens mellan statusfältet och andra informationskällor (Git-historia, release-taggar).
+
+### Konsekvent metadatastruktur och `@digcomp-sv`-konvention
+
+JSON-filer med översättningar får enhetliga metadatafält: `translation_status`, `translator`, `reviewed_by`, `last_updated`, `notes`. Tidigare saknade vissa filer några av dessa fält.
+
+- `competence_areas.json`: fem nya fält tillagda, alla 5 områden markerade som `reviewed`
+- `proficiency_levels.json`: fem nya fält tillagda, alla 12 nivåer markerade som `reviewed`
+- `competences.json`: `translator`, `reviewed_by`, `notes` tillagda (alla null — kompetenserna är inte översatta än)
+- `learning_outcomes.json`, `competence_statements.json`, `glossary.json`: hade redan fälten, inga strukturella ändringar
+
+**`@digcomp-sv`-konvention.** Värdet `@digcomp-sv` införs som standardattribut för `translator` och `reviewed_by` när översättningen är del av projektets officiella datamängd. Individuell spårbarhet finns alltid via Git-historik (commit-författare). Individuella bidragsgivare som skickar PR med drafts använder sitt eget användarnamn; när PR mergas och status sätts till `reviewed` kan värdet ersättas med `@digcomp-sv` eller behållas efter projektägarens bedömning.
+
+Som konsekvens: 73 `translator`-fält i `glossary.json` bytts från `@tereseraymond` till `@digcomp-sv` eftersom termerna härrör från TERMINOLOGI.md som är projektets auktoritativa källa.
+
+### Punkt om "digital environments" borttagen från translation_principles
+
+Punkt 7 i `docs/translation_principles.md` löd tidigare: *"Undvik kalkering. 'In digital environments' kan oftast översättas med 'digitalt' eller 'i digitala miljöer' beroende på sats. Välj det som ger mest läsbar svenska."* Punkten tas bort som självständig princip. Skälet: vägledningen var vag och upprepar i praktiken bara den generella principen om att översätta idiomatiskt snarare än mekaniskt. Engelska DigComp 3.0 överanvänder inte heller frasen, så det finns ingen särskild risk att dokumentera bort.
+
+### CONTRIBUTING och README öppnar för bidragsgivare
+
+CONTRIBUTING.md är omskriven för att tydliggöra två vägar in: förslag via issues (ingen teknisk vana krävs) och pull requests för översättningsarbete (för Git-vana). Issues presenteras som projektets diskussionsforum där ämneskompetens från olika håll bidrar till en mer genomtänkt översättning.
+
+README.md får en ny "Bidra till översättningen"-sektion som sammanfattar möjligheterna och pekar till CONTRIBUTING för detaljer. Tonen öppnar för ett bredare community på sikt, även om projektet för närvarande drivs av en ensam projektägare.
+
+### Dokumentationsändringar
+
+- `docs/translation_principles.md`: statusflödet och "När osäker" omskrivna; ny underrubrik om `@digcomp-sv`-konventionen; punkt 7 om "digital environments" borttagen
+- `docs/errata_tracking.md`: referensen till `needs_review` ersatt
+- `CONTRIBUTING.md`: omskriven
+- `README.md`: ny Bidra-sektion + fotnot om LO1.2.16
+- `CHANGELOG.md`: denna post
+
+### Första learning outcome översatt
+
+LO1.2.16 har översatts som levande exempel för CONTRIBUTING (draft-status, `@tereseraymond`). Posten räknas inte som start på LO-översättningen — en fotnot i README:s statustabell markerar detta.
+
+---
+
 ## v0.1 — 2026-04-21 (Zenodo-release)
 
 Första grundläggande release efter projektomstrukturering och inledande översättningsarbete. Ersätter v0.0.1 (som var en ren extraheringsmilstolpe) som aktuell referensversion.
