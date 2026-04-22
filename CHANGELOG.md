@@ -49,7 +49,7 @@ README.md får en ny "Bidra till översättningen"-sektion som sammanfattar möj
 - `docs/translation_principles.md`: statusflödet och "När osäker" omskrivna; ny underrubrik om `@digcomp-sv`-konventionen; punkt 7 om "digital environments" borttagen
 - `docs/errata_tracking.md`: referensen till `needs_review` ersatt
 - `CONTRIBUTING.md`: omskriven
-- `README.md`: ny Bidra-sektion + fotnot om LO1.2.16
+- `README.md`: ny Bidra-sektion + fotnot om LO1.2.16 + omskriven öppning med personligare ton (NL-inspirerad) + komprimerat licensstycke
 - `CHANGELOG.md`: denna post
 
 ### Första learning outcome översatt
