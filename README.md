@@ -4,7 +4,9 @@
 
 En öppen och spårbar översättning till svenska av Europeiska kommissionens ramverk **DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition, 2025)**.
 
-Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av 36 000+ ord men projektstrukturen har skapats med stöd av Claude (Anthropic). Samma språkmodell används även för att hålla ihop översättningarna och fånga inkonsekvenser. Återanvänd gärna vad som finns här, men kom ihåg att detta fortfarande är ett pågående arbete, så saker kan ändras. Ingen deadline är satt ännu. Det beror på hur många vi blir som hjälps åt!
+Återanvänd gärna vad som finns här, men kom ihåg att detta fortfarande är ett pågående arbete, så saker kan ändras. Ingen deadline är satt ännu. Det beror på hur många vi blir som hjälps åt!
+
+Det mesta av arbetet här är mänskligt dubbel- och trippelkollande av översättningar från engelska till svenska men projektstrukturen har skapats med stöd av Claude (Anthropic). Samma språkmodell används även för att hålla ihop översättningarna och fånga inkonsekvenser. 
 
 DigComp 3.0 är utgivet av Europeiska kommissionens Joint Research Centre (JRC) under Creative Commons Attribution 4.0 International (CC BY 4.0), vilket tillåter översättning. Detta är alltså *inte* EU:s officiella svenska version av DigComp 3.0.
 
