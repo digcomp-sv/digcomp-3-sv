@@ -8,7 +8,7 @@
 
 Version: **0.1 (2026-04-21)**
 
-Första grundläggande release efter projektomstrukturering och inledande översättningsarbete. Se `CHANGELOG.md` för full beskrivning.
+Första release efter projektomstrukturering och första substantiella översättningsarbete. Se `CHANGELOG.md` för full beskrivning.
 
 | Komponent | Poster | Översatta | Status |
 |---|---|---|---|
@@ -19,6 +19,8 @@ Första grundläggande release efter projektomstrukturering och inledande övers
 | Learning outcomes (LO) | 523 | 0 | ⏳ |
 | Ordlista | 126 | 73 termer / 0 förklaringar | 🟡 |
 
+*LO1.2.16 är översatt som dokumentationsexempel — räknas inte som start på LO-översättningen.*
+
 ## Källa
 
 * Cosgrove, J. & Cachia, R. (2025). *DigComp 3.0: European Digital Competence Framework – Fifth Edition*. Publications Office of the European Union, Luxembourg. JRC144121.
@@ -28,11 +30,11 @@ Originaldata (oförändrad) ligger i `sources/`. Översättningsarbetet sker enb
 
 ## Om projektet
 
-Syftet är att tillhandahålla en öppen och maskinläsbar svensk version av DigComp 3.0 som kan återanvändas av olika aktörer utan att översättningen behöver göras om för varje sammanhang.
+Syftet är att tillhandahålla en öppen och maskinläsbar svensk version av DigComp 3.0 som kan återanvändas av olika aktörer.
 
 Alla fastställda svenska val finns samlade i `TERMINOLOGI.md`. Motiveringar för val som krävt avvägning dokumenteras i `docs/decision_log.md` och kan diskuteras öppet via issues och pull requests. Översättningsprinciperna står i `docs/translation_principles.md`. Större strukturella förändringar i dokumentationen loggas i `CHANGELOG.md`. Se `CONTRIBUTING.md` för praktisk vägledning om att bidra till översättningarna.
 
-Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond. Arbetet är strukturerat för att i framtiden överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
+Att placera översättningsarbetet i ett öppet och versionshanterat arkiv är ett initiativ av Terese Raymond. Arbetet är strukturerat för att i framtiden kunna överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
 
 Licensen (CC BY-SA 4.0) säkerställer att arbetet förblir öppet. Översättningen får användas fritt – även kommersiellt – men ingen enskild aktör kan privatisera eller stänga in själva översättningstexten.
 
@@ -78,6 +80,19 @@ digcomp-3-sv/
 ├── LICENSE-CC-BY-SA                      # För översättningen och datan
 └── LICENSE-scripts                       # Apache 2.0 för scripts/
 ```
+
+## Bidra till översättningen
+
+Bidrag välkomnas. Översättningsprojektet drivs för närvarande av Terese Raymond men förhoppningen på sikt är ett community där alla med intresse hjälps åt med översättningar och resonerar öppet.
+
+Särskilt välkommet är bidrag från personer med erfarenhet av yrkes- eller kompetensvalidering samt ämneskompetens inom till exempel informationssäkerhet, etisk AI eller EU-terminologi.
+
+Det finns två sätt att bidra:
+
+- **Via issues** — Ingen teknisk vana krävs. Här går det bra att posta förslag på översättningar, diskutera en redan gjorda översättningar eller ställa andra typer av frågor om DigComp och projektet.
+- **Via pull requests** — För dig som är van vid Git.
+
+Ambitionen är att svara på alla frågor och bidrag inom en vecka. Se [`CONTRIBUTING.md`](CONTRIBUTING.md) för utförlig vägledning.
 
 ## Licenser
 
