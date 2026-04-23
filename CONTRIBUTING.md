@@ -10,7 +10,7 @@ Det finns två vägar in i projektet beroende på hur du vill arbeta.
 
 Issues är projektets diskussionsforum. Här kan vi resonera om terminologival, diskutera tolkningar och fånga upp fel. Ämneskompetens från olika håll bidrar till en mer genomtänkt översättning. Alla issues är öppna — vem som helst kan läsa tidigare diskussioner, kommentera, eller ta intryck av resonemang när de själva arbetar med liknande frågor.
 
-Via Issues kan du också ställa frågor om översättningsprojektet eller DigComp i allmänhet.
+Via Issues (Ärenden) kan du också ställa frågor om översättningsprojektet eller DigComp i allmänhet.
 
 Du är särskilt välkommen att öppna ett issue om du:
 
@@ -24,7 +24,7 @@ Ingen teknisk vana krävs. Ingen fråga är för liten. Korta kommentarer är li
 
 **Så gör du:**
 
-1. Gå till [Issues-fliken](https://github.com/digcomp-sv/digcomp-3-sv/issues)
+1. Gå till [Issues-fliken](https://codeberg.org/digcomp-sv/digcomp-3-sv/issues)
 2. Klicka **"New issue"**
 3. Skriv en tydlig rubrik som förklarar vad det handlar om
 4. Beskriv förslaget, frågan eller felet i brödtexten
@@ -35,7 +35,7 @@ Projektägaren läser alla issues och svarar inom cirka en vecka. Godkända för
 ### B. Pull requests för översättning
 
 Passar dig om du:
-- är van vid Git och GitHub
+- är van vid Git och Codeberg (eller liknande Git-plattformar)
 - vill översätta en sammanhängande del av ramverket
 - accepterar att följa etablerad terminologi och översättningsprinciper
 - är beredd på att få feedback och göra justeringar
@@ -43,7 +43,7 @@ Passar dig om du:
 Så gör du:
 
 1. **Öppna ett issue** först om du vill översätta en större del (till exempel en hel kompetens). Detta undviker dubbelarbete.
-2. **Forka** repot till ditt eget GitHub-konto. (Fork = kopia av repot under ditt eget konto som du kan ändra fritt.)
+2. **Forka** repot till ditt eget Codeberg-konto. (Fork = kopia av repot under ditt eget konto som du kan ändra fritt.)
 3. **Skapa en branch** med ett beskrivande namn, till exempel `oversatt-kompetens-1-2` eller `glossary-forklaringar-del-1`. (Branch = separat arbetsspår där du gör dina ändringar utan att påverka huvudkoden.)
 4. **Läs igenom** `docs/translation_principles.md` och `TERMINOLOGI.md` innan du börjar översätta.
 5. **Översätt en kompetens i taget**, eller en annan sammanhängande enhet. Inte spridda poster.

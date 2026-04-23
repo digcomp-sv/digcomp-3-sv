@@ -1,6 +1,6 @@
 # Errata-hantering
 
-Errata för DigComp 3.0 hanteras via **GitHub Issues** i detta repo, inte som en separat markdown-fil. Varje rättelse som JRC publicerar blir ett eget issue, vilket ger bättre spårbarhet, sökbarhet och möjlighet att länka specifika rättelser till commits som inarbetar dem i den svenska översättningen.
+Errata för DigComp 3.0 hanteras via **Codeberg Issues** i detta repo, inte som en separat markdown-fil. Varje rättelse som JRC publicerar blir ett eget issue, vilket ger bättre spårbarhet, sökbarhet och möjlighet att länka specifika rättelser till commits som inarbetar dem i den svenska översättningen.
 
 Det här arbetsflödet är inspirerat av [PiAir/digcomp3-l10n](https://github.com/PiAir/digcomp3-l10n) (nederländska översättningen), som tillämpar samma modell.
 
@@ -41,13 +41,13 @@ Errata: LO1.2.16 – förtydligande om AI-systemets output (JRC 2026-02-14)
    - Lägg commit-referens i notes: `[errata] JRC 2026-02-14, se issue #42`.
 5. **Stäng issuet** med commit-referens: `Fixes #42`.
 
-## Varför GitHub Issues och inte en markdown-fil
+## Varför Codeberg Issues och inte en markdown-fil
 
 - **Sökbart**: alla stängda issues finns kvar och kan filtreras på `label:errata`.
 - **Kopplat till kod**: commits som inarbetar en rättelse kan referera till issuet med `Fixes #N`, vilket syns både i issuet och i commithistoriken.
 - **Arbetsbart**: flera personer kan jobba parallellt på olika errata utan merge-konflikter i en gemensam spårningsfil.
 - **Transparent**: en utomstående kan se exakt vilka errata som hanterats, när, och vad som är utestående.
-- **Backup**: alla issues finns kvar även om GitHub skulle försvinna – de exporteras via GitHub API om det behövs.
+- **Backup**: alla issues finns kvar även om Codeberg skulle försvinna – de kan exporteras via Forgejo/Codebergs API om det behövs.
 
 ## Initial genomgång
 

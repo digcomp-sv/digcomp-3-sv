@@ -6,14 +6,14 @@ date-released: "2026-04-22"
 abstract: "Öppen svensk översättning av DigComp 3.0 – European Digital Competence Framework for Citizens (Fifth Edition). Projektet är initierat av Terese Raymond och är strukturerat för att i framtiden överföras till en lämplig organisation som kan ta ansvar för långsiktig förvaltning."
 authors:
   - name: "digcomp-sv contributors"
-    website: "https://github.com/digcomp-sv/digcomp-3-sv/graphs/contributors"
+    website: "https://codeberg.org/digcomp-sv/digcomp-3-sv/graphs/contributors"
 contact:
   - family-names: "Raymond"
     given-names: "Terese"
     orcid: "https://orcid.org/0009-0000-5868-4802"
     affiliation: "Project initiator"
-repository-code: "https://github.com/digcomp-sv/digcomp-3-sv"
-url: "https://github.com/digcomp-sv/digcomp-3-sv"
+repository-code: "https://codeberg.org/digcomp-sv/digcomp-3-sv"
+url: "https://codeberg.org/digcomp-sv/digcomp-3-sv"
 license: CC-BY-SA-4.0
 type: dataset
 keywords:

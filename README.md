@@ -69,7 +69,7 @@ digcomp-3-sv/
 ├── docs/
 │   ├── translation_principles.md         # Översättningsprinciper
 │   ├── decision_log.md                   # Terminologibeslut (DL-ID)
-│   └── errata_tracking.md                # Arbetsflöde för JRC:s errata (via GitHub Issues)
+│   └── errata_tracking.md                # Arbetsflöde för JRC:s errata (via Codeberg Issues)
 ├── scripts/
 │   ├── README.md                         # Dokumentation av scripten
 │   ├── requirements.txt                  # Python-beroenden
@@ -127,7 +127,7 @@ Om du använder denna översättning i ditt arbete, vänligen citera den:
 
 Använd **concept-DOI** [10.5281/zenodo.19652093](https://doi.org/10.5281/zenodo.19652093) om du vill referera till projektet i allmänhet (pekar alltid på senaste version).
 
-För automatgenererad citation i olika format (APA, BibTeX, etc.), använd "Cite this repository"-knappen uppe till höger på GitHub eller se CITATION.cff.
+För automatgenererad citation i olika format (APA, BibTeX, etc.), se `CITATION.cff` eller använd Zenodo-postens inbyggda citationsverktyg.
 
 ## Relaterade översättningsprojekt
 
@@ -141,4 +141,4 @@ För automatgenererad citation i olika format (APA, BibTeX, etc.), använd "Cite
 * **Erratalista (alltid senaste versionen):** <https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30-resources/digcomp-30-errata_en>
 * **Riktlinjer för anpassning och översättning:** <https://joint-research-centre.ec.europa.eu/projects-and-activities/education-and-training/digital-transformation-education/digital-competence-framework-digcomp/digcomp-30-resources_en>
 
-Erratalistan uppdateras löpande av JRC. Hur vi hanterar erratainarbetning beskrivs i `docs/errata_tracking.md` (arbetsflöde via GitHub Issues).
+Erratalistan uppdateras löpande av JRC. Hur vi hanterar erratainarbetning beskrivs i `docs/errata_tracking.md` (arbetsflöde via Codeberg Issues).
