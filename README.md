@@ -14,6 +14,8 @@ Innehållet i ramverket har inte ändrats, utökats eller förkortats. Översät
 
 Initiativet drivs av Terese Raymond som till vardags arbetar som projektledare för Digidel inom föreningen Sambruk. Arbetet här är strukturerat för att i framtiden kunna överföras till en organisation som kan ta ansvar för långsiktig förvaltning.
 
+Primär utvecklingsplats är Codeberg. Repot speglas även till GitHub för synlighet.
+
 ## Status
 
 Version: **0.1 (2026-04-21)**
