@@ -6,6 +6,28 @@ Posterna listas i omvänd kronologisk ordning (nyaste först). DL-ID:na tilldela
 
 ---
 
+## DL-009 — 2026-04-28 — REVIDERING: "Basic" → "Bas"
+
+**Ersätter:** DL-003 (2026-04-19) avseende den lägsta nivån. Övriga nivåer (Medel, Avancerad, Mycket avancerad) berörs inte.
+
+**Tidigare beslut:** Basic → Grund (se DL-003).
+
+**Nytt beslut:** Basic → Bas. Adjektivisk form i sammansättningar: "basnivå" (t.ex. "på basnivå", "nedre basnivå", "övre basnivå").
+
+**Motivering för revidering:** Sveriges digitaliseringsstrategi 2025–2030 etablerar "bas, bredd och spets" som tre nivåer inom digital kompetens. Strategins definition av **digital baskompetens** — "grundläggande digitala färdigheter, dvs. förmåga att använda digitala verktyg för exempelvis kommunikation och samarbete, säkerhet eller problemlösning" (s. 9) — sammanfaller funktionellt med DigComp 3.0:s Basic-nivå.
+
+Det är även till nytta för översättningens användbarhet i förvaltningskontext att DigComp:s lägsta nivå bär samma namn som det styrande policydokumentet redan använder.
+
+Endast den lägsta nivån revideras. Digitaliserigsstrategins "bredd" och "spets" är yrkesmässiga *typer* av kompetens (specialiserad respektive generell yrkesnyttig) och inte progressionssteg på en skala. De har därför inga naturliga motsvarigheter till Intermediate / Advanced / Highly advanced i DigComp 3.0. "Bas" är den enda av strategins tre termer som fungerar i båda systemen: både som lägsta steg på en progressiv skala och som funktionell kompetenskategori i policyspråk.
+
+Den föregående svenska DigComp-versionen (DigComp 2.2 på svenska, 2022) använde "Grundläggande" för dåvarande "Foundation"-nivå. När engelska originalet bytte "Foundation" till "Basic" i version 3.0 etablerades inte automatiskt någon stabil svensk motsvarighet, eftersom det inte finns någon publicerad officiell svensk översättning av DigComp 3.0 utöver detta projekt. Bytet bryter därmed inte mot någon etablerad institutionell norm.
+
+**Påverkar:** `data/sv/proficiency_levels.json` (4-nivåskalan: 1 etikett + 1 beskrivning; 8-nivåskalan: 2 etiketter + 2 beskrivningar); `TERMINOLOGI.md` (Kompetensnivåer 4-nivåskalan, EQF-nivåer 8-nivåskalan, alfabetisk termlista under "Basic").
+
+**Källa:** Sveriges digitaliseringsstrategi 2025–2030, Finansdepartementet, s. 9–10.
+
+---
+
 ## DL-008 — 2026-04-22 — REVIDERING: "Attitude" → "Attityder"
 
 **Ersätter:** DL-002 (2026-04-18)
@@ -91,7 +113,9 @@ Stavningen "missinformation" (med två s) är rekommenderad av Institutet för s
 
 ---
 
-## DL-003 — 2026-04-19 — Proficiency level names (4-nivåskalan)
+## DL-003 — 2026-04-19 — Proficiency level names (4-nivåskalan) [DELVIS ERSATT av DL-009]
+
+> ⚠️ **Den lägsta nivån (Basic → Grund) är ersatt av DL-009 (2026-04-28): Basic → Bas.** Posten behålls för spårbarhet enligt dokumentets revideringsprincip. Övriga nivåer (Medel, Avancerad, Mycket avancerad) gäller fortsatt enligt detta beslut.
 
 **Alternativ övervägda:** Grundläggande/Mellannivå/Avancerad/Mycket avancerad; Grund/Medel/Avancerad/Mycket avancerad; Grundläggande/Mellan/Avancerad/Högt avancerad.
 

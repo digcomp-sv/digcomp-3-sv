@@ -89,11 +89,11 @@ De 21 kompetenser som fördelas över de fem områdena.
 
 ## Kompetensnivåer (4-nivåskalan)
 
-De fyra övergripande nivåerna för bedömning av kompetens. Se **DL-003** för motivering.
+De fyra övergripande nivåerna för bedömning av kompetens. Se **DL-003** (Medel/Avancerad/Mycket avancerad) och **DL-009** (Bas, ersätter DL-003 för lägsta nivån).
 
 | EN | SV | Status |
 |---|---|---|
-| Basic | Grund | ✅ |
+| Basic | Bas | ✅ |
 | Intermediate | Medel | ✅ |
 | Advanced | Avancerad | ✅ |
 | Highly advanced | Mycket avancerad | ✅ |
@@ -104,8 +104,8 @@ DigComp 3.0:s koppling till European Qualifications Framework (EQF) på åtta ni
 
 | EQF-nivå | CEFR-stil | Förälder (EN) | Förälder (SV) |
 |---|---|---|---|
-| 1 | A1 | Basic | Grund |
-| 2 | A2 | Basic | Grund |
+| 1 | A1 | Basic | Bas |
+| 2 | A2 | Basic | Bas |
 | 3 | B1 | Intermediate | Medel |
 | 4 | B2 | Intermediate | Medel |
 | 5 | C1 | Advanced | Avancerad |
@@ -185,8 +185,8 @@ Dimension i learning outcomes. **DL-008** (ersätter DL-002 som valde "Förhåll
 **Baiting** → **Baiting** ✅ *(oöversatt)*
 Hänvisar till Social engineering i JRC:s glossary. Termen behålls oöversatt i svensk cybersäkerhetslitteratur.
 
-**Basic** → **Grund** ✅
-Se Kompetensnivåer i Ramverksstruktur. **DL-003**.
+**Basic** → **Bas** ✅
+Se Kompetensnivåer i Ramverksstruktur. **DL-009** (ersätter DL-003 för lägsta nivån).
 
 **Bias** → **Snedvridning / bias** 🟡
 Systematisk avvikelse från ett sant värde. Förekommer som subjektiv, data-, algoritm-, utvecklar- och institutionaliserad bias.

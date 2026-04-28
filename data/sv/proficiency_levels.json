@@ -3,11 +3,11 @@
     {
       "name": {
         "en": "Basic",
-        "sv": "Grund"
+        "sv": "Bas"
       },
       "description": {
         "en": "At basic level, individuals remember and implement simple tasks with guidance as needed.",
-        "sv": "På grundnivå minns och utför personen enkla uppgifter, med vägledning vid behov."
+        "sv": "På basnivå minns och utför personen enkla uppgifter, med vägledning vid behov."
       },
       "purpose": {
         "en": "To support personal, learning and/or working goals and participate in society.",
@@ -83,11 +83,11 @@
       "cefr_style": "A1",
       "parent_level_name": {
         "en": "Basic",
-        "sv": "Grund"
+        "sv": "Bas"
       },
       "description": {
         "en": "At the bottom of the Basic level, individuals require guidance to recognise and implement many or most simple tasks.",
-        "sv": "På nedre grundnivå kräver personen vägledning för att känna igen och utföra många eller de flesta enkla uppgifter."
+        "sv": "På nedre basnivå kräver personen vägledning för att känna igen och utföra många eller de flesta enkla uppgifter."
       },
       "translation_status": "reviewed",
       "translator": "@digcomp-sv",
@@ -100,11 +100,11 @@
       "cefr_style": "A2",
       "parent_level_name": {
         "en": "Basic",
-        "sv": "Grund"
+        "sv": "Bas"
       },
       "description": {
         "en": "At the top of the Basic level, individuals remember and implement simple tasks with little or no guidance.",
-        "sv": "På övre grundnivå minns och utför personen enkla uppgifter med lite eller ingen vägledning."
+        "sv": "På övre basnivå minns och utför personen enkla uppgifter med lite eller ingen vägledning."
       },
       "translation_status": "reviewed",
       "translator": "@digcomp-sv",
